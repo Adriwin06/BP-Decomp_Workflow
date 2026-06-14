@@ -1,0 +1,249 @@
+// _built-in_
+namespace std {
+	// Declaration
+	struct _Iosb<int> {
+		// xiosbase:65
+		enum _Fmtflags {
+			_Fmtmask = 65535,
+			_Fmtzero = 0,
+		}
+
+		// xiosbase:93
+		enum _Iostate {
+			_Statmask = 23,
+		}
+
+		// xiosbase:104
+		enum _Openmode {
+			_Openmask = 255,
+		}
+
+		// xiosbase:118
+		enum _Seekdir {
+			_Seekmask = 3,
+		}
+
+	}
+
+}
+
+// xiosbase:61
+struct std::_Iosb<int> {
+	// xiosbase:70
+	extern const std::_Iosb<int>::_Fmtflags skipws;
+
+	// xiosbase:71
+	extern const std::_Iosb<int>::_Fmtflags unitbuf;
+
+	// xiosbase:72
+	extern const std::_Iosb<int>::_Fmtflags uppercase;
+
+	// xiosbase:73
+	extern const std::_Iosb<int>::_Fmtflags showbase;
+
+	// xiosbase:74
+	extern const std::_Iosb<int>::_Fmtflags showpoint;
+
+	// xiosbase:75
+	extern const std::_Iosb<int>::_Fmtflags showpos;
+
+	// xiosbase:76
+	extern const std::_Iosb<int>::_Fmtflags left;
+
+	// xiosbase:77
+	extern const std::_Iosb<int>::_Fmtflags right;
+
+	// xiosbase:78
+	extern const std::_Iosb<int>::_Fmtflags internal;
+
+	// xiosbase:79
+	extern const std::_Iosb<int>::_Fmtflags dec;
+
+	// xiosbase:80
+	extern const std::_Iosb<int>::_Fmtflags oct;
+
+	// xiosbase:81
+	extern const std::_Iosb<int>::_Fmtflags hex;
+
+	// xiosbase:82
+	extern const std::_Iosb<int>::_Fmtflags scientific;
+
+	// xiosbase:83
+	extern const std::_Iosb<int>::_Fmtflags fixed;
+
+	// xiosbase:84
+	extern const std::_Iosb<int>::_Fmtflags boolalpha;
+
+	// xiosbase:85
+	extern const std::_Iosb<int>::_Fmtflags _Stdio;
+
+	// xiosbase:87
+	extern const std::_Iosb<int>::_Fmtflags adjustfield;
+
+	// xiosbase:89
+	extern const std::_Iosb<int>::_Fmtflags basefield;
+
+	// xiosbase:91
+	extern const std::_Iosb<int>::_Fmtflags floatfield;
+
+	// xiosbase:98
+	extern const std::_Iosb<int>::_Iostate goodbit;
+
+	// xiosbase:99
+	extern const std::_Iosb<int>::_Iostate eofbit;
+
+	// xiosbase:100
+	extern const std::_Iosb<int>::_Iostate failbit;
+
+	// xiosbase:101
+	extern const std::_Iosb<int>::_Iostate badbit;
+
+	// xiosbase:102
+	extern const std::_Iosb<int>::_Iostate _Hardfail;
+
+	// xiosbase:109
+	extern const std::_Iosb<int>::_Openmode in;
+
+	// xiosbase:110
+	extern const std::_Iosb<int>::_Openmode out;
+
+	// xiosbase:111
+	extern const std::_Iosb<int>::_Openmode ate;
+
+	// xiosbase:112
+	extern const std::_Iosb<int>::_Openmode app;
+
+	// xiosbase:113
+	extern const std::_Iosb<int>::_Openmode trunc;
+
+	// xiosbase:114
+	extern const std::_Iosb<int>::_Openmode _Nocreate;
+
+	// xiosbase:115
+	extern const std::_Iosb<int>::_Openmode _Noreplace;
+
+	// xiosbase:116
+	extern const std::_Iosb<int>::_Openmode binary;
+
+	// xiosbase:123
+	extern const std::_Iosb<int>::_Seekdir beg;
+
+	// xiosbase:124
+	extern const std::_Iosb<int>::_Seekdir cur;
+
+	// xiosbase:125
+	extern const std::_Iosb<int>::_Seekdir end;
+
+}
+
+// xiosbase:70
+extern const std::_Iosb<int>::_Fmtflags skipws;
+
+// xiosbase:71
+extern const std::_Iosb<int>::_Fmtflags unitbuf;
+
+// xiosbase:72
+extern const std::_Iosb<int>::_Fmtflags uppercase;
+
+// xiosbase:73
+extern const std::_Iosb<int>::_Fmtflags showbase;
+
+// xiosbase:74
+extern const std::_Iosb<int>::_Fmtflags showpoint;
+
+// xiosbase:75
+extern const std::_Iosb<int>::_Fmtflags showpos;
+
+// xiosbase:76
+extern const std::_Iosb<int>::_Fmtflags left;
+
+// xiosbase:77
+extern const std::_Iosb<int>::_Fmtflags right;
+
+// xiosbase:78
+extern const std::_Iosb<int>::_Fmtflags internal;
+
+// xiosbase:79
+extern const std::_Iosb<int>::_Fmtflags dec;
+
+// xiosbase:80
+extern const std::_Iosb<int>::_Fmtflags oct;
+
+// xiosbase:81
+extern const std::_Iosb<int>::_Fmtflags hex;
+
+// xiosbase:82
+extern const std::_Iosb<int>::_Fmtflags scientific;
+
+// xiosbase:83
+extern const std::_Iosb<int>::_Fmtflags fixed;
+
+// xiosbase:84
+extern const std::_Iosb<int>::_Fmtflags boolalpha;
+
+// xiosbase:85
+extern const std::_Iosb<int>::_Fmtflags _Stdio;
+
+// xiosbase:87
+extern const std::_Iosb<int>::_Fmtflags adjustfield;
+
+// xiosbase:89
+extern const std::_Iosb<int>::_Fmtflags basefield;
+
+// xiosbase:91
+extern const std::_Iosb<int>::_Fmtflags floatfield;
+
+// xiosbase:98
+extern const std::_Iosb<int>::_Iostate goodbit;
+
+// xiosbase:99
+extern const std::_Iosb<int>::_Iostate eofbit;
+
+// xiosbase:100
+extern const std::_Iosb<int>::_Iostate failbit;
+
+// xiosbase:101
+extern const std::_Iosb<int>::_Iostate badbit;
+
+// xiosbase:102
+extern const std::_Iosb<int>::_Iostate _Hardfail;
+
+// xiosbase:109
+extern const std::_Iosb<int>::_Openmode in;
+
+// xiosbase:110
+extern const std::_Iosb<int>::_Openmode out;
+
+// xiosbase:111
+extern const std::_Iosb<int>::_Openmode ate;
+
+// xiosbase:112
+extern const std::_Iosb<int>::_Openmode app;
+
+// xiosbase:113
+extern const std::_Iosb<int>::_Openmode trunc;
+
+// xiosbase:114
+extern const std::_Iosb<int>::_Openmode _Nocreate;
+
+// xiosbase:115
+extern const std::_Iosb<int>::_Openmode _Noreplace;
+
+// xiosbase:116
+extern const std::_Iosb<int>::_Openmode binary;
+
+// xiosbase:123
+extern const std::_Iosb<int>::_Seekdir beg;
+
+// xiosbase:124
+extern const std::_Iosb<int>::_Seekdir cur;
+
+// xiosbase:125
+extern const std::_Iosb<int>::_Seekdir end;
+
+// xiosbase:500
+extern int _Index;
+
+// xiosbase:501
+extern bool _Sync;
+

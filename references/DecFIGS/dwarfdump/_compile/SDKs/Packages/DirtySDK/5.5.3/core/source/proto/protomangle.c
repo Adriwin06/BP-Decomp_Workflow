@@ -1,0 +1,4 @@
+struct SocketT;
+
+struct ProtoHttpRefT;
+

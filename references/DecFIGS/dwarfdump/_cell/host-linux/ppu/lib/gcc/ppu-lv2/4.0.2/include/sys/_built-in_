@@ -1,0 +1,16 @@
+// _built-in_
+namespace std {
+	struct type_info;
+
+}
+
+// _built-in_
+namespace __cxxabiv1 {
+	struct __base_class_type_info;
+
+	struct __vmi_class_type_info;
+
+	struct __si_class_type_info;
+
+}
+

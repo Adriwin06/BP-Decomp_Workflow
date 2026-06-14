@@ -1,0 +1,177 @@
+// xutility:201
+struct std::_Container_base {
+}
+
+// xutility:205
+struct std::_Iterator_base {
+}
+
+// xutility:255
+struct std::iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&> : public _Iterator_base {
+}
+
+// xutility:281
+struct std::_Ranit<char,std::ptrdiff_t,const char*,const char&> : public iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&> {
+}
+
+// _built-in_
+namespace std {
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *);
+
+	// xutility:769
+	extern TrafficContact * _Val_type<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *const&);
+
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *);
+
+	// xutility:769
+	extern RaceCarContact * _Val_type<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *const&);
+
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *);
+
+	// xutility:769
+	extern PhysicalCarPartContact * _Val_type<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *const&);
+
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnPhysics::ContactSpy::PropContact*>(PropContact *);
+
+	// xutility:769
+	extern PropContact * _Val_type<BrnPhysics::ContactSpy::PropContact*>(PropContact *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnPhysics::ContactSpy::PropContact*>(PropContact *const&);
+
+}
+
+// xutility:213
+struct std::input_iterator_tag {
+}
+
+// xutility:222
+struct std::forward_iterator_tag : public input_iterator_tag {
+}
+
+// xutility:227
+struct std::bidirectional_iterator_tag : public forward_iterator_tag {
+}
+
+// xutility:232
+struct std::random_access_iterator_tag : public bidirectional_iterator_tag {
+}
+
+// _built-in_
+namespace std {
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnPhysics::Deformation::ContactTime*>(ContactTime *);
+
+	// xutility:769
+	extern ContactTime * _Val_type<BrnPhysics::Deformation::ContactTime*>(ContactTime *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnPhysics::Deformation::ContactTime*>(ContactTime *const&);
+
+}
+
+// _built-in_
+namespace std {
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnSound::Logic::Collision::OutputCollision**>(OutputCollision **);
+
+	// xutility:769
+	extern OutputCollision ** _Val_type<BrnSound::Logic::Collision::OutputCollision**>(OutputCollision **);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnSound::Logic::Collision::OutputCollision**>(OutputCollision **const&);
+
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*>(FindResult *);
+
+	// xutility:769
+	extern FindResult * _Val_type<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*>(FindResult *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*>(FindResult *const&);
+
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *);
+
+	// xutility:769
+	extern BrnSound::Logic::Traffic::TrafficStateManager::SortResult * _Val_type<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *const&);
+
+}
+
+// _built-in_
+namespace std {
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<uint16_t*>(uint16_t *);
+
+	// xutility:769
+	extern uint16_t * _Val_type<uint16_t*>(uint16_t *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<uint16_t*>(uint16_t *const&);
+
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnTraffic::VehicleRenderInfo*>(VehicleRenderInfo *);
+
+	// xutility:769
+	extern VehicleRenderInfo * _Val_type<BrnTraffic::VehicleRenderInfo*>(VehicleRenderInfo *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnTraffic::VehicleRenderInfo*>(VehicleRenderInfo *const&);
+
+}
+
+// _built-in_
+namespace std {
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *);
+
+	// xutility:769
+	extern CandidateViewVolumePlane * _Val_type<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *const&);
+
+}
+
+// _built-in_
+namespace std {
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *);
+
+	// xutility:769
+	extern ModelInstanceInfo * _Val_type<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *const&);
+
+}
+
+// _built-in_
+namespace std {
+	// xutility:830
+	extern ptrdiff_t * _Dist_type<CgsSceneManager::Interval*>(Interval *);
+
+	// xutility:769
+	extern Interval * _Val_type<CgsSceneManager::Interval*>(Interval *);
+
+	// xutility:394
+	extern random_access_iterator_tag _Iter_cat<CgsSceneManager::Interval*>(Interval *const&);
+
+}
+

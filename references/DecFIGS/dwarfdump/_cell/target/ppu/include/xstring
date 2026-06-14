@@ -1,0 +1,551 @@
+// _built-in_
+namespace std {
+	// Declaration
+	struct basic_string<char,std::char_traits<char>,std::allocator<char> > {
+		// xstring:1675
+		union _Bxty {
+			// xstring:1676
+			char[16] _Buf;
+
+			// xstring:1677
+			char * _Ptr;
+
+		}
+	}
+
+}
+
+// xstring:324
+struct std::_String_base : public _Container_base {
+public:
+	// xstring:326
+	void _Xlen() const;
+
+	// xstring:328
+	void _Xran() const;
+
+}
+
+// xstring:336
+struct std::_String_val<char,std::allocator<char> > : public _String_base {
+protected:
+	// xstring:346
+	allocator<char> _Alval;
+
+	// xstring:341
+	void _String_val(allocator<char>);
+
+}
+
+// xstring:355
+struct std::basic_string<char,std::char_traits<char>,std::allocator<char> > : public _String_val<char,std::allocator<char> > {
+	// xstring:1700
+	extern const size_t npos;
+
+protected:
+	// xstring:1678
+	std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Bxty _Bx;
+
+	// xstring:1690
+	size_t _Mysize;
+
+	// xstring:1691
+	size_t _Myres;
+
+public:
+	// xstring:391
+	void basic_string();
+
+	// xstring:397
+	void basic_string(const allocator<char> &);
+
+	// xstring:403
+	void basic_string(const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:416
+	void basic_string(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int, unsigned int);
+
+	// xstring:426
+	void basic_string(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int, unsigned int, const allocator<char> &);
+
+	// xstring:433
+	void basic_string(const char *, unsigned int);
+
+	// xstring:440
+	void basic_string(const char *, unsigned int, const allocator<char> &);
+
+	// xstring:447
+	void basic_string(const char *);
+
+	// xstring:454
+	void basic_string(const char *, const allocator<char> &);
+
+	// xstring:461
+	void basic_string(unsigned int, char);
+
+	// xstring:468
+	void basic_string(unsigned int, char, const allocator<char> &);
+
+	// xstring:533
+	void basic_string(const char *, const char *);
+
+	// xstring:543
+	void basic_string(std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:552
+	void ~basic_string();
+
+	// xstring:562
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & operator=(const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:567
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & operator=(const char *);
+
+	// xstring:572
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & operator=(char);
+
+	// xstring:577
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & operator+=(const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:582
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & operator+=(const char *);
+
+	// xstring:587
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & operator+=(char);
+
+	// xstring:592
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & append(const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:598
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & append(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int, unsigned int);
+
+	// xstring:617
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & append(const char *, unsigned int);
+
+	// xstring:633
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & append(const char *);
+
+	// xstring:638
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & append(unsigned int, char);
+
+	// xstring:674
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & append(const char *, const char *);
+
+	// xstring:680
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & append(std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:685
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & assign(const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:691
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & assign(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int, unsigned int);
+
+	// xstring:709
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & assign(const char *, unsigned int);
+
+	// xstring:722
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & assign(const char *);
+
+	// xstring:727
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & assign(unsigned int, char);
+
+	// xstring:762
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & assign(const char *, const char *);
+
+	// xstring:768
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & assign(std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:773
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & insert(unsigned int, const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:779
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & insert(unsigned int, const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int, unsigned int);
+
+	// xstring:806
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & insert(unsigned int, const char *, unsigned int);
+
+	// xstring:826
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & insert(unsigned int, const char *);
+
+	// xstring:832
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & insert(unsigned int, unsigned int, char);
+
+	// xstring:849
+	std::_String_iterator<char,std::char_traits<char>,std::allocator<char> > insert(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:854
+	std::_String_iterator<char,std::char_traits<char>,std::allocator<char> > insert(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, char);
+
+	// xstring:861
+	void insert(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, unsigned int, char);
+
+	// xstring:891
+	void insert(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, const char *, const char *);
+
+	// xstring:897
+	void insert(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:903
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & erase(unsigned int, unsigned int);
+
+	// xstring:919
+	std::_String_iterator<char,std::char_traits<char>,std::allocator<char> > erase(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:926
+	std::_String_iterator<char,std::char_traits<char>,std::allocator<char> > erase(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:933
+	void clear();
+
+	// xstring:938
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(unsigned int, unsigned int, const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:944
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(unsigned int, unsigned int, const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int, unsigned int);
+
+	// xstring:1004
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(unsigned int, unsigned int, const char *, unsigned int);
+
+	// xstring:1032
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(unsigned int, unsigned int, const char *);
+
+	// xstring:1038
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(unsigned int, unsigned int, unsigned int, char);
+
+	// xstring:1063
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, const basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:1070
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, const char *, unsigned int);
+
+	// xstring:1076
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, const char *);
+
+	// xstring:1083
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, unsigned int, char);
+
+	// xstring:1118
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, const char *, const char *);
+
+	// xstring:1130
+	basic_string<char,std::char_traits<char>,std::allocator<char> > & replace(std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:1140
+	std::_String_iterator<char,std::char_traits<char>,std::allocator<char> > begin();
+
+	// xstring:1145
+	std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > begin() const;
+
+	// xstring:1150
+	std::_String_iterator<char,std::char_traits<char>,std::allocator<char> > end();
+
+	// xstring:1155
+	std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > end() const;
+
+	// xstring:1160
+	std::reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > > rbegin();
+
+	// xstring:1165
+	std::reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > > rbegin() const;
+
+	// xstring:1170
+	std::reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > > rend();
+
+	// xstring:1175
+	std::reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > > rend() const;
+
+	// xstring:1180
+	char & at(unsigned int);
+
+	// xstring:1187
+	const char & at(unsigned int) const;
+
+	// xstring:1194
+	char & operator[](unsigned int);
+
+	// xstring:1205
+	const char & operator[](unsigned int) const;
+
+	// xstring:1216
+	void push_back(char);
+
+	// xstring:1221
+	const char * c_str() const;
+
+	// xstring:1226
+	const char * data() const;
+
+	// xstring:1231
+	size_t length() const;
+
+	// xstring:1236
+	size_t size() const;
+
+	// xstring:1241
+	size_t max_size() const;
+
+	// xstring:1247
+	void resize(unsigned int);
+
+	// xstring:1252
+	void resize(unsigned int, char);
+
+	// xstring:1260
+	size_t capacity() const;
+
+	// xstring:1265
+	void reserve(unsigned int);
+
+	// xstring:1275
+	bool empty() const;
+
+	// xstring:1281
+	size_t copy(char *, unsigned int, unsigned int) const;
+
+	// xstring:1292
+	void swap(basic_string<char,std::char_traits<char>,std::allocator<char> > &);
+
+	// xstring:1316
+	size_t find(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int) const;
+
+	// xstring:1322
+	size_t find(const char *, unsigned int, unsigned int) const;
+
+	// xstring:1342
+	size_t find(const char *, unsigned int) const;
+
+	// xstring:1347
+	size_t find(char, unsigned int) const;
+
+	// xstring:1352
+	size_t rfind(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int) const;
+
+	// xstring:1358
+	size_t rfind(const char *, unsigned int, unsigned int) const;
+
+	// xstring:1378
+	size_t rfind(const char *, unsigned int) const;
+
+	// xstring:1383
+	size_t rfind(char, unsigned int) const;
+
+	// xstring:1389
+	size_t find_first_of(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int) const;
+
+	// xstring:1395
+	size_t find_first_of(const char *, unsigned int, unsigned int) const;
+
+	// xstring:1409
+	size_t find_first_of(const char *, unsigned int) const;
+
+	// xstring:1414
+	size_t find_first_of(char, unsigned int) const;
+
+	// xstring:1420
+	size_t find_last_of(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int) const;
+
+	// xstring:1426
+	size_t find_last_of(const char *, unsigned int, unsigned int) const;
+
+	// xstring:1441
+	size_t find_last_of(const char *, unsigned int) const;
+
+	// xstring:1446
+	size_t find_last_of(char, unsigned int) const;
+
+	// xstring:1452
+	size_t find_first_not_of(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int) const;
+
+	// xstring:1459
+	size_t find_first_not_of(const char *, unsigned int, unsigned int) const;
+
+	// xstring:1473
+	size_t find_first_not_of(const char *, unsigned int) const;
+
+	// xstring:1478
+	size_t find_first_not_of(char, unsigned int) const;
+
+	// xstring:1484
+	size_t find_last_not_of(const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int) const;
+
+	// xstring:1490
+	size_t find_last_not_of(const char *, unsigned int, unsigned int) const;
+
+	// xstring:1504
+	size_t find_last_not_of(const char *, unsigned int) const;
+
+	// xstring:1509
+	size_t find_last_not_of(char, unsigned int) const;
+
+	// xstring:1514
+	basic_string<char,std::char_traits<char>,std::allocator<char> > substr(unsigned int, unsigned int) const;
+
+	// xstring:1519
+	int compare(const basic_string<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:1525
+	int compare(unsigned int, unsigned int, const basic_string<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:1532
+	int compare(unsigned int, unsigned int, const basic_string<char,std::char_traits<char>,std::allocator<char> > &, unsigned int, unsigned int) const;
+
+	// xstring:1541
+	int compare(const char *) const;
+
+	// xstring:1546
+	int compare(unsigned int, unsigned int, const char *) const;
+
+	// xstring:1552
+	int compare(unsigned int, unsigned int, const char *, unsigned int) const;
+
+	// xstring:1567
+	allocator<char> get_allocator() const;
+
+protected:
+	// xstring:1585
+	void _Chassign(unsigned int, unsigned int, char);
+
+	// xstring:1593
+	void _Copy(unsigned int, unsigned int);
+
+	// xstring:1623
+	void _Eos(unsigned int);
+
+	// xstring:1629
+	bool _Grow(unsigned int, bool);
+
+	// xstring:1643
+	bool _Inside(const char *);
+
+	// xstring:1653
+	size_t _Pdif(std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >, std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> >);
+
+	// xstring:1659
+	void _Tidy(bool, unsigned int);
+
+	// xstring:1680
+	char * _Myptr();
+
+	// xstring:1685
+	const char * _Myptr() const;
+
+}
+
+// xstring:22
+struct std::_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > : public _Ranit<char,std::ptrdiff_t,const char*,const char&> {
+	// xstring:187
+	const char * _Myptr;
+
+public:
+	// xstring:33
+	void _String_const_iterator();
+
+	// xstring:50
+	void _String_const_iterator(const char *);
+
+	// xstring:56
+	const char & operator*() const;
+
+	// xstring:70
+	const char * operator->() const;
+
+	// xstring:75
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > & operator++();
+
+	// xstring:81
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > operator++(int);
+
+	// xstring:88
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > & operator--();
+
+	// xstring:94
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > operator--(int);
+
+	// xstring:101
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > & operator+=(int);
+
+	// xstring:107
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > operator+(int) const;
+
+	// xstring:113
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > & operator-=(int);
+
+	// xstring:118
+	_String_const_iterator<char,std::char_traits<char>,std::allocator<char> > operator-(int) const;
+
+	// xstring:124
+	ptrdiff_t operator-(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:134
+	const char & operator[](int) const;
+
+	// xstring:139
+	bool operator==(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:149
+	bool operator!=(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:154
+	bool operator<(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:164
+	bool operator>(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:169
+	bool operator<=(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:174
+	bool operator>=(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+}
+
+// xstring:207
+struct std::_String_iterator<char,std::char_traits<char>,std::allocator<char> > : public _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > {
+public:
+	// xstring:218
+	void _String_iterator();
+
+	// xstring:233
+	void _String_iterator(char *);
+
+	// xstring:239
+	char & operator*() const;
+
+	// xstring:244
+	char * operator->() const;
+
+	// xstring:249
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > & operator++();
+
+	// xstring:255
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > operator++(int);
+
+	// xstring:262
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > & operator--();
+
+	// xstring:268
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > operator--(int);
+
+	// xstring:275
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > & operator+=(int);
+
+	// xstring:281
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > operator+(int) const;
+
+	// xstring:287
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > & operator-=(int);
+
+	// xstring:292
+	_String_iterator<char,std::char_traits<char>,std::allocator<char> > operator-(int) const;
+
+	// xstring:298
+	ptrdiff_t operator-(const _String_const_iterator<char,std::char_traits<char>,std::allocator<char> > &) const;
+
+	// xstring:303
+	char & operator[](int) const;
+
+}
+
+// xstring:1700
+extern const size_t npos = 4294967295;
+

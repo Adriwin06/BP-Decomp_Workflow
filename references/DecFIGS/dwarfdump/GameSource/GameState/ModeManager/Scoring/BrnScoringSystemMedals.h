@@ -1,0 +1,14 @@
+// BurnoutConstants.h:90
+namespace BrnGameState {
+	// BrnScoringSystemMedals.h:26
+	enum ECurrentMedalTargetTime {
+		E_CURRENT_MEDAL_TARGET_TIME_START = 0,
+		E_CURRENT_MEDAL_TARGET_TIME_GOLD = 0,
+		E_CURRENT_MEDAL_TARGET_TIME_SILVER = 1,
+		E_CURRENT_MEDAL_TARGET_TIME_BRONZE = 2,
+		E_CURRENT_MEDAL_TARGET_TIME_NONE = 3,
+		E_CURRENT_MEDAL_TARGET_TIME_SIZE = 4,
+	}
+
+}
+

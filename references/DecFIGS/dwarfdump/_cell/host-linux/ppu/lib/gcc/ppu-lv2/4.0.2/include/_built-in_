@@ -1,0 +1,32 @@
+// _built-in_
+namespace std {
+	struct type_info;
+
+}
+
+// _built-in_
+namespace __cxxabiv1 {
+	struct __cxa_exception;
+
+	struct __cxa_eh_globals;
+
+}
+
+// _built-in_
+namespace :: {
+}
+
+// _built-in_
+namespace __cxxabiv1 {
+	struct __cxa_exception;
+
+}
+
+// _built-in_
+namespace std {
+}
+
+// _built-in_
+namespace __cxxabiv1 {
+}
+

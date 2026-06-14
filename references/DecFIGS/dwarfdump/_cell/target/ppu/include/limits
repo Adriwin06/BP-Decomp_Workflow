@@ -1,0 +1,189 @@
+// _built-in_
+namespace std {
+	// limits:21
+	enum float_denorm_style {
+		denorm_indeterminate = -1,
+		denorm_absent = 0,
+		denorm_present = 1,
+	}
+
+	// limits:29
+	enum float_round_style {
+		round_indeterminate = -1,
+		round_toward_zero = 0,
+		round_to_nearest = 1,
+		round_toward_infinity = 2,
+		round_toward_neg_infinity = 3,
+	}
+
+}
+
+// limits:40
+struct std::_Num_base {
+	// limits:41
+	extern const std::float_denorm_style has_denorm;
+
+	// limits:42
+	extern const bool has_denorm_loss;
+
+	// limits:43
+	extern const bool has_infinity;
+
+	// limits:44
+	extern const bool has_quiet_NaN;
+
+	// limits:45
+	extern const bool has_signaling_NaN;
+
+	// limits:46
+	extern const bool is_bounded;
+
+	// limits:47
+	extern const bool is_exact;
+
+	// limits:48
+	extern const bool is_iec559;
+
+	// limits:49
+	extern const bool is_integer;
+
+	// limits:50
+	extern const bool is_modulo;
+
+	// limits:51
+	extern const bool is_signed;
+
+	// limits:52
+	extern const bool is_specialized;
+
+	// limits:53
+	extern const bool tinyness_before;
+
+	// limits:54
+	extern const bool traps;
+
+	// limits:55
+	extern const std::float_round_style round_style;
+
+	// limits:56
+	extern const int digits;
+
+	// limits:57
+	extern const int digits10;
+
+	// limits:58
+	extern const int max_exponent;
+
+	// limits:59
+	extern const int max_exponent10;
+
+	// limits:60
+	extern const int min_exponent;
+
+	// limits:61
+	extern const int min_exponent10;
+
+	// limits:62
+	extern const int radix;
+
+}
+
+// limits:127
+struct std::_Num_float_base : public _Num_base {
+	// limits:128
+	extern const std::float_denorm_style has_denorm;
+
+	// limits:129
+	extern const bool has_denorm_loss;
+
+	// limits:130
+	extern const bool has_infinity;
+
+	// limits:131
+	extern const bool has_quiet_NaN;
+
+	// limits:132
+	extern const bool has_signaling_NaN;
+
+	// limits:133
+	extern const bool is_bounded;
+
+	// limits:134
+	extern const bool is_exact;
+
+	// limits:135
+	extern const bool is_iec559;
+
+	// limits:136
+	extern const bool is_integer;
+
+	// limits:137
+	extern const bool is_modulo;
+
+	// limits:138
+	extern const bool is_signed;
+
+	// limits:139
+	extern const bool is_specialized;
+
+	// limits:140
+	extern const bool tinyness_before;
+
+	// limits:141
+	extern const bool traps;
+
+	// limits:142
+	extern const std::float_round_style round_style;
+
+	// limits:143
+	extern const int radix = 2;
+
+}
+
+// limits:839
+struct std::numeric_limits<float> : public _Num_float_base {
+	// limits:883
+	extern const int digits = 24;
+
+	// limits:884
+	extern const int digits10 = 6;
+
+	// limits:885
+	extern const int max_exponent = 128;
+
+	// limits:886
+	extern const int max_exponent10 = 38;
+
+	// limits:887
+	extern const int min_exponent = 4294967171;
+
+	// limits:888
+	extern const int min_exponent10 = 4294967259;
+
+public:
+	// limits:843
+	float min();
+
+	// limits:848
+	float max();
+
+	// limits:853
+	float epsilon();
+
+	// limits:858
+	float round_error();
+
+	// limits:863
+	float denorm_min();
+
+	// limits:868
+	float infinity();
+
+	// limits:873
+	float quiet_NaN();
+
+	// limits:878
+	float signaling_NaN();
+
+}
+

@@ -22,7 +22,7 @@ input for source-like type recovery.
 | `decfigs_func_files.json` | Compact: `func_addr -> {name, primary_file, span_count, inlined_files:[…]}`. | Quick "which file does this function belong to" lookup. |
 | `decfigs_inlining.json` | Per-function ordered spans `{file, n_instr, first_ea, last_ea, line_lo, line_hi, inlined}`; `inlined:true` where a span's file differs from the function's home file. | Recover what was inlined into a function and from where. |
 | `decfigs_source_tree.txt` | Sorted unique list of every original source path referenced by the build. | The **original source-tree skeleton** the recovered C++ should mirror. |
-| `dwarfdump/` | Optional/local source-tree-shaped DWARF declaration dump: `.h`/`.cpp` hint files with enums, class/struct outlines, member names/types, globals, function signatures, and local variables where DWARF retained them. | Feed source-code reconstruction with source-shaped names and logical types. This is **not complete implementation source** and **not offset authority**; verify behavior and member placement against X360 pseudocode/asm. |
+| `dwarfdump/` | Source-tree-shaped DWARF declaration dump: `.h`/`.cpp` hint files with enums, class/struct outlines, member names/types, globals, function signatures, and local variables where DWARF retained them. | Feed source-code reconstruction with source-shaped names and logical types. This is **not complete implementation source** and **not offset authority**; verify behavior and member placement against X360 pseudocode/asm. |
 
 ## Why it's useful for the decomp
 
@@ -47,10 +47,10 @@ Line-attribution JSON is generated from the IDB by
 [`../../tools/build_source_tree.py`](../../tools/build_source_tree.py) into the
 `decfigs_*` files. Do not hand-edit; re-run those tools after re-exporting.
 
-`dwarfdump/` is a local DWARF-derived hint tree. Keep it in sync with the same
+`dwarfdump/` is a committed DWARF-derived hint tree. Keep it in sync with the same
 DecFIGS ELF/IDB when regenerating DecFIGS artifacts. The `work show --full` dossier
-auto-surfaces matching files from this tree for DecFIGS-backed TUs when present,
-and `work submit` passes that same dossier to the reviewer packet.
+auto-surfaces matching files from this tree for DecFIGS-backed TUs, and `work submit`
+passes that same dossier to the reviewer packet.
 
 > Note: original paths are rooted under build-machine temp dirs like
 > `C:\WINDOWS\TEMP\DBSWORK\a\d:/P4/B5_FIGS/Burnout/tasks/FINAL_FIGS/Code/…`; the

@@ -1,0 +1,1 @@
+// CgsBinaryFileResource.cpp:34

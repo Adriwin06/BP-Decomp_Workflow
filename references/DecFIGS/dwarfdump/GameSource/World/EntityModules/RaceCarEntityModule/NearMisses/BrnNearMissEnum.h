@@ -1,0 +1,36 @@
+// BrnWorldRegion.h:27
+namespace BrnWorld {
+	// BrnNearMissEnum.h:30
+	enum ENearMissType {
+		E_NEAR_MISS_TYPE_NORMAL_TRAFFIC = 0,
+		E_NEAR_MISS_TYPE_NORMAL_OTHERRACECAR = 1,
+		E_NEAR_MISS_TYPE_CRASHESCAPE_TRAFFIC = 2,
+		E_NEAR_MISS_TYPE_CRASHESCAPE_OTHERRACECAR = 3,
+	}
+
+}
+
+// BrnWorldSharedConstants.h:30
+namespace BrnWorld {
+	// BrnNearMissEnum.h:30
+	enum ENearMissType {
+		E_NEAR_MISS_TYPE_NORMAL_TRAFFIC = 0,
+		E_NEAR_MISS_TYPE_NORMAL_OTHERRACECAR = 1,
+		E_NEAR_MISS_TYPE_CRASHESCAPE_TRAFFIC = 2,
+		E_NEAR_MISS_TYPE_CRASHESCAPE_OTHERRACECAR = 3,
+	}
+
+}
+
+// BrnCollisionTag.h:37
+namespace BrnWorld {
+	// BrnNearMissEnum.h:30
+	enum ENearMissType {
+		E_NEAR_MISS_TYPE_NORMAL_TRAFFIC = 0,
+		E_NEAR_MISS_TYPE_NORMAL_OTHERRACECAR = 1,
+		E_NEAR_MISS_TYPE_CRASHESCAPE_TRAFFIC = 2,
+		E_NEAR_MISS_TYPE_CRASHESCAPE_OTHERRACECAR = 3,
+	}
+
+}
+

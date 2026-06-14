@@ -1,0 +1,3870 @@
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace :: {
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void sinf4(float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void cosf(float);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void exp2f4(float[4]);
+
+	void asinf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void cosf4(float[4]);
+
+	void tanf4(float[4]);
+
+	void acosf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void sinf(float);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	void tolower(int);
+
+	void isupper(int);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	void cosf4(float[4]);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void tanf4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void sinf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void strstr(char *, const char *);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void exp2f4(float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void cosf(float);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void asinf4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void cosf(float);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void sinf(float);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void exp2f4(float[4]);
+
+	void asinf4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void cosf(float);
+
+	void sinf(float);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void exp2f4(float[4]);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf4(float[4]);
+
+	void sinf4(float[4]);
+
+	void sinf(float);
+
+	void cosf(float);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void exp2f4(float[4]);
+
+	void atof(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	void sinf(float);
+
+	void sinf4(float[4]);
+
+	void cosf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void cosf(float);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void sinf4(float[4]);
+
+	void cosf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void cosf(float);
+
+	void strstr(char *, const char *);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void cosf(float);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void cosf(float);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct pair<BrnPhysics::ContactSpy::RaceCarContact*,BrnPhysics::ContactSpy::RaceCarContact*>;
+
+	struct pair<BrnPhysics::ContactSpy::TrafficContact*,BrnPhysics::ContactSpy::TrafficContact*>;
+
+	struct pair<BrnPhysics::ContactSpy::PhysicalCarPartContact*,BrnPhysics::ContactSpy::PhysicalCarPartContact*>;
+
+	struct pair<BrnPhysics::ContactSpy::PropContact*,BrnPhysics::ContactSpy::PropContact*>;
+
+	void cosf(float);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void cosf4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct pair<BrnPhysics::Deformation::ContactTime*,BrnPhysics::Deformation::ContactTime*>;
+
+	void sinf4(float[4]);
+
+	void tanf4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void cosf(float);
+
+	void cosf4(float[4]);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void exp2f4(float[4]);
+
+	void expf4(float[4]);
+
+	void ldexpf4(float[4], int[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void cosf(float);
+
+	void strstr(char *, const char *);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void atoi(const char *);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void cosf(float);
+
+	void sinf(float);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct _Num_base;
+
+	struct _Num_float_base;
+
+	struct numeric_limits<float>;
+
+	struct pair<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*,BrnSound::Logic::Traffic::TrafficStateManager::SortResult*>;
+
+	struct pair<BrnSound::Logic::Collision::OutputCollision**,BrnSound::Logic::Collision::OutputCollision**>;
+
+	struct pair<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*,CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*>;
+
+	void cosf(float);
+
+	void sinf4(float[4]);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void exp2f4(float[4]);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void sinf(float);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct pair<uint16_t*,uint16_t*>;
+
+	struct pair<BrnTraffic::VehicleRenderInfo*,BrnTraffic::VehicleRenderInfo*>;
+
+	void cosf4(float[4]);
+
+	void sinf4(float[4]);
+
+	void cosf(float);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void strstr(char *, const char *);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void powf4(float[4], float[4]);
+
+	void log2f4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void exp2f4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void cosf(float);
+
+	void tanf4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void sinf4(float[4]);
+
+	void cosf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	void strstr(char *, const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void sinf(float);
+
+	void cosf(float);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void cosf4(float[4]);
+
+	void sinf4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct pair<BrnWorld::CandidateViewVolumePlane*,BrnWorld::CandidateViewVolumePlane*>;
+
+	void strtod(const char *, char **);
+
+	void cosf(float);
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void tanf4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct pair<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*,CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>;
+
+	void tanf4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void strstr(char *, const char *);
+
+	void toupper(int);
+
+	void islower(int);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void tolower(int);
+
+	void isupper(int);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	void tolower(int);
+
+	void isupper(int);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	void strrchr(char *, int);
+
+	void atof(const char *);
+
+	void atoi(const char *);
+
+	void sinf4(float[4]);
+
+	void sinf(float);
+
+	void cosf(float);
+
+	void strchr(char *, int);
+
+	void cosf4(float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void isalpha(int);
+
+	void isdigit(int);
+
+	void strstr(char *, const char *);
+
+	void atof(const char *);
+
+	void cosf(float);
+
+	void sinf(float);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void atof(const char *);
+
+	void atoi(const char *);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void asinf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void divf4(float[4], float[4]);
+
+	void atanf4(float[4]);
+
+	void recipf4(float[4]);
+
+	void sinf(float);
+
+	void cosf(float);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	void cosf(float);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	void cosf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct input_iterator_tag;
+
+	struct forward_iterator_tag;
+
+	struct bidirectional_iterator_tag;
+
+	struct random_access_iterator_tag;
+
+	struct pair<CgsSceneManager::Interval*,CgsSceneManager::Interval*>;
+
+	void acosf4(float[4]);
+
+	void sqrtf4(float[4]);
+
+	void sincosf4(float[4], float *[4], float *[4]);
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	void sinf(float);
+
+	void cosf(float);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+
+// _built-in_
+namespace std {
+	struct _Lldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	union _Dconst {
+	}
+}
+
+// _built-in_
+namespace std {
+	struct _Lockit;
+
+	struct _Lldiv_t;
+
+	struct malloc_managed_size;
+
+	struct div_t;
+
+	struct ldiv_t;
+
+	struct _Mbstatet;
+
+	struct fpos_t;
+
+	struct _Filet;
+
+	struct nothrow_t;
+
+	struct tm;
+
+	struct char_traits<wchar_t>;
+
+	struct _Container_base;
+
+	struct _Iterator_base;
+
+	struct _String_base;
+
+	struct _Allocator_base<char>;
+
+	struct allocator<char>;
+
+	struct _String_val<char,std::allocator<char> >;
+
+	struct _String_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct _String_const_iterator<char,std::char_traits<char>,std::allocator<char> >;
+
+	struct reverse_iterator<std::_String_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct reverse_iterator<std::_String_const_iterator<char, std::char_traits<char>, std::allocator<char> > >;
+
+	struct lconv;
+
+	struct _Collvec;
+
+	struct _Statab;
+
+	struct _Ctypevec;
+
+	struct _Cvtvec;
+
+	struct _Timevec;
+
+	struct _Tinfo;
+
+	struct _Locinfo;
+
+	struct iterator<std::random_access_iterator_tag,char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Ranit<char,std::ptrdiff_t,const char*,const char&>;
+
+	struct _Locbase<int>;
+
+	struct s_pthread_attr_t;
+
+	struct s_pthread_mutexattr_t;
+
+	struct s_pthread_mutex_t;
+
+	struct s_pthread_condattr_t;
+
+	struct s_pthread_cond_t;
+
+	struct s_pthread_rwlockattr_t;
+
+	struct s_pthread_rwlock_t;
+
+	struct timespec;
+
+	struct pthread;
+
+	struct s_sem;
+
+	void sinf(float);
+
+	void atof(const char *);
+
+	void atoi(const char *);
+
+	void sinf4(float[4]);
+
+	void cosf4(float[4]);
+
+	union _Dconst {
+	}
+	struct _Dvals;
+
+}
+

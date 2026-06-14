@@ -1,0 +1,164 @@
+// _built-in_
+namespace std {
+	// iosfwd:14
+	extern std::fpos_t _Fpz;
+
+	// iosfwd:15
+	extern const char_traits<wchar_t>::streamoff _BADOFF;
+
+}
+
+// iosfwd:250
+struct std::char_traits<wchar_t> {
+	// wchar.h:52
+	typedef char_traits<wchar_t>::_Wintt wint_t;
+
+	// yvals.h:479
+	typedef int _Wintt;
+
+	// iosfwd:11
+	typedef long int streamoff;
+
+public:
+	// iosfwd:258
+	void assign(wchar_t &, const wchar_t &);
+
+	// iosfwd:263
+	bool eq(const wchar_t &, const wchar_t &);
+
+	// iosfwd:268
+	bool lt(const wchar_t &, const wchar_t &);
+
+	// iosfwd:274
+	int compare(const wchar_t *, const wchar_t *, size_t);
+
+	// iosfwd:281
+	size_t length(const wchar_t *);
+
+	// iosfwd:288
+	wchar_t * copy(wchar_t *, const wchar_t *, size_t);
+
+	// iosfwd:296
+	const wchar_t * find(const wchar_t *, size_t, const wchar_t &);
+
+	// iosfwd:303
+	wchar_t * move(wchar_t *, const wchar_t *, size_t);
+
+	// iosfwd:310
+	wchar_t * assign(wchar_t *, size_t, wchar_t);
+
+	// iosfwd:316
+	wchar_t to_char_type(const char_traits<wchar_t>::wint_t &);
+
+	// iosfwd:321
+	char_traits<wchar_t>::wint_t to_int_type(const wchar_t &);
+
+	// iosfwd:327
+	bool eq_int_type(const char_traits<wchar_t>::wint_t &, const char_traits<wchar_t>::wint_t &);
+
+	// iosfwd:332
+	char_traits<wchar_t>::wint_t eof();
+
+	// iosfwd:337
+	char_traits<wchar_t>::wint_t not_eof(const char_traits<wchar_t>::wint_t &);
+
+}
+
+// iosfwd:440
+struct std::allocator<char> : public _Allocator_base<char> {
+public:
+	// xmemory:107
+	char * address(char &) const;
+
+	// xmemory:112
+	const char * address(const char &) const;
+
+	// xmemory:117
+	void allocator();
+
+	// xmemory:121
+	void allocator(const allocator<char> &);
+
+	// xmemory:136
+	void deallocate(char *, unsigned int);
+
+	// xmemory:141
+	char * allocate(unsigned int);
+
+	// xmemory:146
+	char * allocate(unsigned int, const void *);
+
+	// xmemory:151
+	void construct(char *, const char &);
+
+	// xmemory:156
+	void destroy(char *);
+
+	// xmemory:161
+	size_t max_size() const;
+
+}
+
+// iosfwd:14
+extern std::fpos_t _Fpz;
+
+// iosfwd:15
+extern const char_traits<wchar_t>::streamoff _BADOFF;
+
+// _built-in_
+namespace std {
+	// iosfwd:14
+	extern std::fpos_t _Fpz;
+
+}
+
+// iosfwd:250
+struct std::char_traits<wchar_t> {
+	// iosfwd:11
+	typedef long int streamoff;
+
+public:
+	// iosfwd:258
+	void assign(wchar_t &, const wchar_t &);
+
+	// iosfwd:263
+	bool eq(const wchar_t &, const wchar_t &);
+
+	// iosfwd:268
+	bool lt(const wchar_t &, const wchar_t &);
+
+	// iosfwd:274
+	int compare(const wchar_t *, const wchar_t *, size_t);
+
+	// iosfwd:281
+	size_t length(const wchar_t *);
+
+	// iosfwd:288
+	wchar_t * copy(wchar_t *, const wchar_t *, size_t);
+
+	// iosfwd:296
+	const wchar_t * find(const wchar_t *, size_t, const wchar_t &);
+
+	// iosfwd:303
+	wchar_t * move(wchar_t *, const wchar_t *, size_t);
+
+	// iosfwd:310
+	wchar_t * assign(wchar_t *, size_t, wchar_t);
+
+	// iosfwd:316
+	wchar_t to_char_type(const wint_t &);
+
+	// iosfwd:321
+	wint_t to_int_type(const wchar_t &);
+
+	// iosfwd:327
+	bool eq_int_type(const wint_t &, const wint_t &);
+
+	// iosfwd:332
+	wint_t eof();
+
+	// iosfwd:337
+	wint_t not_eof(const wint_t &);
+
+}
+

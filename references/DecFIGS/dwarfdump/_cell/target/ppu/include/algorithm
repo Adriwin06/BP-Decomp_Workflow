@@ -1,0 +1,778 @@
+// _built-in_
+namespace std {
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:25
+	extern const wchar_t * find<const wchar_t*, wchar_t>(const wchar_t *, const wchar_t *, const wchar_t &);
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:475
+	extern void replace<char*, char>(char *, char *, const char &, const char &);
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:1897
+	extern pair<BrnPhysics::ContactSpy::TrafficContact*,BrnPhysics::ContactSpy::TrafficContact*> _Unguarded_partition<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *);
+
+	// algorithm:1882
+	extern void _Median<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *, TrafficContact *);
+
+	// algorithm:1871
+	extern void _Med3<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *, TrafficContact *);
+
+	// algorithm:425
+	extern void iter_swap<BrnPhysics::ContactSpy::TrafficContact*, BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *);
+
+	// algorithm:1291
+	extern void make_heap<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *);
+
+	// algorithm:1279
+	extern void _Make_heap<BrnPhysics::ContactSpy::TrafficContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::TrafficContact>(TrafficContact *, TrafficContact *, ptrdiff_t *, TrafficContact *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<BrnPhysics::ContactSpy::TrafficContact*, int, BrnPhysics::ContactSpy::TrafficContact>(TrafficContact *, int, int, TrafficContact);
+
+	// algorithm:1080
+	extern void _Push_heap<BrnPhysics::ContactSpy::TrafficContact*, int, BrnPhysics::ContactSpy::TrafficContact>(TrafficContact *, int, int, TrafficContact);
+
+	// algorithm:1325
+	extern void sort_heap<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *);
+
+	// algorithm:1213
+	extern void pop_heap<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<BrnPhysics::ContactSpy::TrafficContact*, BrnPhysics::ContactSpy::TrafficContact>(TrafficContact *, TrafficContact *, TrafficContact *);
+
+	// algorithm:1198
+	extern void _Pop_heap<BrnPhysics::ContactSpy::TrafficContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::TrafficContact>(TrafficContact *, TrafficContact *, TrafficContact *, TrafficContact, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *);
+
+	// algorithm:880
+	extern void rotate<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *, TrafficContact *);
+
+	// algorithm:874
+	extern void _Rotate<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *, TrafficContact *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnPhysics::ContactSpy::TrafficContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::TrafficContact>(TrafficContact *, TrafficContact *, TrafficContact *, ptrdiff_t *, TrafficContact *);
+
+	// algorithm:1955
+	extern void _Sort<BrnPhysics::ContactSpy::TrafficContact*, int>(TrafficContact *, TrafficContact *, int);
+
+	// algorithm:1897
+	extern pair<BrnPhysics::ContactSpy::RaceCarContact*,BrnPhysics::ContactSpy::RaceCarContact*> _Unguarded_partition<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *);
+
+	// algorithm:1882
+	extern void _Median<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *, RaceCarContact *);
+
+	// algorithm:1871
+	extern void _Med3<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *, RaceCarContact *);
+
+	// algorithm:425
+	extern void iter_swap<BrnPhysics::ContactSpy::RaceCarContact*, BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *);
+
+	// algorithm:1291
+	extern void make_heap<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *);
+
+	// algorithm:1279
+	extern void _Make_heap<BrnPhysics::ContactSpy::RaceCarContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::RaceCarContact>(RaceCarContact *, RaceCarContact *, ptrdiff_t *, RaceCarContact *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<BrnPhysics::ContactSpy::RaceCarContact*, int, BrnPhysics::ContactSpy::RaceCarContact>(RaceCarContact *, int, int, RaceCarContact);
+
+	// algorithm:1080
+	extern void _Push_heap<BrnPhysics::ContactSpy::RaceCarContact*, int, BrnPhysics::ContactSpy::RaceCarContact>(RaceCarContact *, int, int, RaceCarContact);
+
+	// algorithm:1325
+	extern void sort_heap<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *);
+
+	// algorithm:1213
+	extern void pop_heap<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<BrnPhysics::ContactSpy::RaceCarContact*, BrnPhysics::ContactSpy::RaceCarContact>(RaceCarContact *, RaceCarContact *, RaceCarContact *);
+
+	// algorithm:1198
+	extern void _Pop_heap<BrnPhysics::ContactSpy::RaceCarContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::RaceCarContact>(RaceCarContact *, RaceCarContact *, RaceCarContact *, RaceCarContact, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *);
+
+	// algorithm:880
+	extern void rotate<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *, RaceCarContact *);
+
+	// algorithm:874
+	extern void _Rotate<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *, RaceCarContact *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnPhysics::ContactSpy::RaceCarContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::RaceCarContact>(RaceCarContact *, RaceCarContact *, RaceCarContact *, ptrdiff_t *, RaceCarContact *);
+
+	// algorithm:1955
+	extern void _Sort<BrnPhysics::ContactSpy::RaceCarContact*, int>(RaceCarContact *, RaceCarContact *, int);
+
+	// algorithm:1897
+	extern pair<BrnPhysics::ContactSpy::PhysicalCarPartContact*,BrnPhysics::ContactSpy::PhysicalCarPartContact*> _Unguarded_partition<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1882
+	extern void _Median<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1871
+	extern void _Med3<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:425
+	extern void iter_swap<BrnPhysics::ContactSpy::PhysicalCarPartContact*, BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1291
+	extern void make_heap<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1279
+	extern void _Make_heap<BrnPhysics::ContactSpy::PhysicalCarPartContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::PhysicalCarPartContact>(PhysicalCarPartContact *, PhysicalCarPartContact *, ptrdiff_t *, PhysicalCarPartContact *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<BrnPhysics::ContactSpy::PhysicalCarPartContact*, int, BrnPhysics::ContactSpy::PhysicalCarPartContact>(PhysicalCarPartContact *, int, int, PhysicalCarPartContact);
+
+	// algorithm:1080
+	extern void _Push_heap<BrnPhysics::ContactSpy::PhysicalCarPartContact*, int, BrnPhysics::ContactSpy::PhysicalCarPartContact>(PhysicalCarPartContact *, int, int, PhysicalCarPartContact);
+
+	// algorithm:1325
+	extern void sort_heap<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1213
+	extern void pop_heap<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<BrnPhysics::ContactSpy::PhysicalCarPartContact*, BrnPhysics::ContactSpy::PhysicalCarPartContact>(PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1198
+	extern void _Pop_heap<BrnPhysics::ContactSpy::PhysicalCarPartContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::PhysicalCarPartContact>(PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:880
+	extern void rotate<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:874
+	extern void _Rotate<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnPhysics::ContactSpy::PhysicalCarPartContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::PhysicalCarPartContact>(PhysicalCarPartContact *, PhysicalCarPartContact *, PhysicalCarPartContact *, ptrdiff_t *, PhysicalCarPartContact *);
+
+	// algorithm:1955
+	extern void _Sort<BrnPhysics::ContactSpy::PhysicalCarPartContact*, int>(PhysicalCarPartContact *, PhysicalCarPartContact *, int);
+
+	// algorithm:1897
+	extern pair<BrnPhysics::ContactSpy::PropContact*,BrnPhysics::ContactSpy::PropContact*> _Unguarded_partition<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *);
+
+	// algorithm:1882
+	extern void _Median<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *, PropContact *);
+
+	// algorithm:1871
+	extern void _Med3<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *, PropContact *);
+
+	// algorithm:425
+	extern void iter_swap<BrnPhysics::ContactSpy::PropContact*, BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *);
+
+	// algorithm:1291
+	extern void make_heap<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *);
+
+	// algorithm:1279
+	extern void _Make_heap<BrnPhysics::ContactSpy::PropContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::PropContact>(PropContact *, PropContact *, ptrdiff_t *, PropContact *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<BrnPhysics::ContactSpy::PropContact*, int, BrnPhysics::ContactSpy::PropContact>(PropContact *, int, int, PropContact);
+
+	// algorithm:1080
+	extern void _Push_heap<BrnPhysics::ContactSpy::PropContact*, int, BrnPhysics::ContactSpy::PropContact>(PropContact *, int, int, PropContact);
+
+	// algorithm:1325
+	extern void sort_heap<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *);
+
+	// algorithm:1213
+	extern void pop_heap<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<BrnPhysics::ContactSpy::PropContact*, BrnPhysics::ContactSpy::PropContact>(PropContact *, PropContact *, PropContact *);
+
+	// algorithm:1198
+	extern void _Pop_heap<BrnPhysics::ContactSpy::PropContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::PropContact>(PropContact *, PropContact *, PropContact *, PropContact, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *);
+
+	// algorithm:880
+	extern void rotate<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *, PropContact *);
+
+	// algorithm:874
+	extern void _Rotate<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *, PropContact *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnPhysics::ContactSpy::PropContact*, std::ptrdiff_t, BrnPhysics::ContactSpy::PropContact>(PropContact *, PropContact *, PropContact *, ptrdiff_t *, PropContact *);
+
+	// algorithm:1955
+	extern void _Sort<BrnPhysics::ContactSpy::PropContact*, int>(PropContact *, PropContact *, int);
+
+	// algorithm:1979
+	extern void sort<BrnPhysics::ContactSpy::PropContact*>(PropContact *, PropContact *);
+
+	// algorithm:1979
+	extern void sort<BrnPhysics::ContactSpy::PhysicalCarPartContact*>(PhysicalCarPartContact *, PhysicalCarPartContact *);
+
+	// algorithm:1979
+	extern void sort<BrnPhysics::ContactSpy::TrafficContact*>(TrafficContact *, TrafficContact *);
+
+	// algorithm:1979
+	extern void sort<BrnPhysics::ContactSpy::RaceCarContact*>(RaceCarContact *, RaceCarContact *);
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:1897
+	extern pair<BrnPhysics::Deformation::ContactTime*,BrnPhysics::Deformation::ContactTime*> _Unguarded_partition<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *);
+
+	// algorithm:1882
+	extern void _Median<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *, ContactTime *);
+
+	// algorithm:1871
+	extern void _Med3<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *, ContactTime *);
+
+	// algorithm:425
+	extern void iter_swap<BrnPhysics::Deformation::ContactTime*, BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *);
+
+	// algorithm:1291
+	extern void make_heap<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *);
+
+	// algorithm:1279
+	extern void _Make_heap<BrnPhysics::Deformation::ContactTime*, std::ptrdiff_t, BrnPhysics::Deformation::ContactTime>(ContactTime *, ContactTime *, ptrdiff_t *, ContactTime *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<BrnPhysics::Deformation::ContactTime*, int, BrnPhysics::Deformation::ContactTime>(ContactTime *, int, int, ContactTime);
+
+	// algorithm:1080
+	extern void _Push_heap<BrnPhysics::Deformation::ContactTime*, int, BrnPhysics::Deformation::ContactTime>(ContactTime *, int, int, ContactTime);
+
+	// algorithm:1325
+	extern void sort_heap<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *);
+
+	// algorithm:1213
+	extern void pop_heap<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<BrnPhysics::Deformation::ContactTime*, BrnPhysics::Deformation::ContactTime>(ContactTime *, ContactTime *, ContactTime *);
+
+	// algorithm:1198
+	extern void _Pop_heap<BrnPhysics::Deformation::ContactTime*, std::ptrdiff_t, BrnPhysics::Deformation::ContactTime>(ContactTime *, ContactTime *, ContactTime *, ContactTime, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *);
+
+	// algorithm:880
+	extern void rotate<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *, ContactTime *);
+
+	// algorithm:874
+	extern void _Rotate<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *, ContactTime *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnPhysics::Deformation::ContactTime*, std::ptrdiff_t, BrnPhysics::Deformation::ContactTime>(ContactTime *, ContactTime *, ContactTime *, ptrdiff_t *, ContactTime *);
+
+	// algorithm:1955
+	extern void _Sort<BrnPhysics::Deformation::ContactTime*, int>(ContactTime *, ContactTime *, int);
+
+	// algorithm:1979
+	extern void sort<BrnPhysics::Deformation::ContactTime*>(ContactTime *, ContactTime *);
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:2025
+	extern void _Median<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:2013
+	extern void _Med3<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:425
+	extern void iter_swap<BrnSound::Logic::Collision::OutputCollision**, BrnSound::Logic::Collision::OutputCollision**>(OutputCollision **, OutputCollision **);
+
+	// algorithm:2042
+	extern pair<BrnSound::Logic::Collision::OutputCollision**,BrnSound::Logic::Collision::OutputCollision**> _Unguarded_partition<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:1316
+	extern void make_heap<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:1303
+	extern void _Make_heap<BrnSound::Logic::Collision::OutputCollision**, std::ptrdiff_t, BrnSound::Logic::Collision::OutputCollision*, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *), ptrdiff_t *, OutputCollision **);
+
+	// algorithm:1226
+	extern void _Adjust_heap<BrnSound::Logic::Collision::OutputCollision**, int, BrnSound::Logic::Collision::OutputCollision*, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, int, int, OutputCollision *, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:1127
+	extern void _Push_heap<BrnSound::Logic::Collision::OutputCollision**, int, BrnSound::Logic::Collision::OutputCollision*, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, int, int, OutputCollision *, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:1335
+	extern void sort_heap<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:1268
+	extern void pop_heap<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:1260
+	extern void _Pop_heap_0<BrnSound::Logic::Collision::OutputCollision**, BrnSound::Logic::Collision::OutputCollision*, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *), OutputCollision **);
+
+	// algorithm:1251
+	extern void _Pop_heap<BrnSound::Logic::Collision::OutputCollision**, std::ptrdiff_t, BrnSound::Logic::Collision::OutputCollision*, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, OutputCollision **, OutputCollision *, bool (*)(const OutputCollision *, const OutputCollision *), ptrdiff_t *);
+
+	// algorithm:1988
+	extern void _Insertion_sort<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:880
+	extern void rotate<BrnSound::Logic::Collision::OutputCollision**>(OutputCollision **, OutputCollision **, OutputCollision **);
+
+	// algorithm:874
+	extern void _Rotate<BrnSound::Logic::Collision::OutputCollision**>(OutputCollision **, OutputCollision **, OutputCollision **, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnSound::Logic::Collision::OutputCollision**, std::ptrdiff_t, BrnSound::Logic::Collision::OutputCollision*>(OutputCollision **, OutputCollision **, OutputCollision **, ptrdiff_t *, OutputCollision **);
+
+	// algorithm:2101
+	extern void _Sort<BrnSound::Logic::Collision::OutputCollision**, int, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, int, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:2025
+	extern void _Median<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:2013
+	extern void _Med3<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:425
+	extern void iter_swap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*>(FindResult *, FindResult *);
+
+	// algorithm:2042
+	extern pair<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*,CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*> _Unguarded_partition<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:1316
+	extern void make_heap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:1303
+	extern void _Make_heap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, std::ptrdiff_t, CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &), ptrdiff_t *, FindResult *);
+
+	// algorithm:1226
+	extern void _Adjust_heap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, int, CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, int, int, FindResult, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:1127
+	extern void _Push_heap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, int, CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, int, int, FindResult, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:1335
+	extern void sort_heap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:1268
+	extern void pop_heap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:1260
+	extern void _Pop_heap_0<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &), FindResult *);
+
+	// algorithm:1251
+	extern void _Pop_heap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, std::ptrdiff_t, CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, FindResult *, FindResult, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &), ptrdiff_t *);
+
+	// algorithm:1988
+	extern void _Insertion_sort<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:880
+	extern void rotate<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*>(FindResult *, FindResult *, FindResult *);
+
+	// algorithm:874
+	extern void _Rotate<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*>(FindResult *, FindResult *, FindResult *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, std::ptrdiff_t, CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult>(FindResult *, FindResult *, FindResult *, ptrdiff_t *, FindResult *);
+
+	// algorithm:2101
+	extern void _Sort<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, int, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, int, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:2025
+	extern void _Median<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:2013
+	extern void _Med3<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:425
+	extern void iter_swap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, BrnSound::Logic::Traffic::TrafficStateManager::SortResult*>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *);
+
+	// algorithm:2042
+	extern pair<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*,BrnSound::Logic::Traffic::TrafficStateManager::SortResult*> _Unguarded_partition<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:1316
+	extern void make_heap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:1303
+	extern void _Make_heap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, std::ptrdiff_t, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &), ptrdiff_t *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *);
+
+	// algorithm:1226
+	extern void _Adjust_heap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, int, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, int, int, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:1127
+	extern void _Push_heap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, int, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, int, int, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:1335
+	extern void sort_heap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:1268
+	extern void pop_heap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:1260
+	extern void _Pop_heap_0<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &), BrnSound::Logic::Traffic::TrafficStateManager::SortResult *);
+
+	// algorithm:1251
+	extern void _Pop_heap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, std::ptrdiff_t, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &), ptrdiff_t *);
+
+	// algorithm:1988
+	extern void _Insertion_sort<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:880
+	extern void rotate<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *);
+
+	// algorithm:874
+	extern void _Rotate<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, std::ptrdiff_t, BrnSound::Logic::Traffic::TrafficStateManager::SortResult>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, ptrdiff_t *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *);
+
+	// algorithm:2101
+	extern void _Sort<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, int, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, int, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:2127
+	extern void sort<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult&)>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *, bool (*)(const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, const BrnSound::Logic::Traffic::TrafficStateManager::SortResult &));
+
+	// algorithm:2127
+	extern void sort<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*, bool (*)(const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&, const CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult&)>(FindResult *, FindResult *, bool (*)(const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &, const SelectionHistory<512u,uint16_t,uint16_t,65536ull>::FindResult &));
+
+	// algorithm:2127
+	extern void sort<BrnSound::Logic::Collision::OutputCollision**, bool (*)(const BrnSound::Logic::Collision::OutputCollision*, const BrnSound::Logic::Collision::OutputCollision*)>(OutputCollision **, OutputCollision **, bool (*)(const OutputCollision *, const OutputCollision *));
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:1897
+	extern pair<uint16_t*,uint16_t*> _Unguarded_partition<uint16_t*>(uint16_t *, uint16_t *);
+
+	// algorithm:1882
+	extern void _Median<uint16_t*>(uint16_t *, uint16_t *, uint16_t *);
+
+	// algorithm:1871
+	extern void _Med3<uint16_t*>(uint16_t *, uint16_t *, uint16_t *);
+
+	// algorithm:425
+	extern void iter_swap<uint16_t*, uint16_t*>(uint16_t *, uint16_t *);
+
+	// algorithm:1291
+	extern void make_heap<uint16_t*>(uint16_t *, uint16_t *);
+
+	// algorithm:1279
+	extern void _Make_heap<uint16_t*, std::ptrdiff_t, uint16_t>(uint16_t *, uint16_t *, ptrdiff_t *, uint16_t *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<uint16_t*, int, short unsigned int>(uint16_t *, int, int, short unsigned int);
+
+	// algorithm:1080
+	extern void _Push_heap<uint16_t*, int, short unsigned int>(uint16_t *, int, int, short unsigned int);
+
+	// algorithm:1325
+	extern void sort_heap<uint16_t*>(uint16_t *, uint16_t *);
+
+	// algorithm:1213
+	extern void pop_heap<uint16_t*>(uint16_t *, uint16_t *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<uint16_t*, uint16_t>(uint16_t *, uint16_t *, uint16_t *);
+
+	// algorithm:1198
+	extern void _Pop_heap<uint16_t*, std::ptrdiff_t, short unsigned int>(uint16_t *, uint16_t *, uint16_t *, short unsigned int, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<uint16_t*>(uint16_t *, uint16_t *);
+
+	// algorithm:880
+	extern void rotate<uint16_t*>(uint16_t *, uint16_t *, uint16_t *);
+
+	// algorithm:874
+	extern void _Rotate<uint16_t*>(uint16_t *, uint16_t *, uint16_t *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<uint16_t*, std::ptrdiff_t, uint16_t>(uint16_t *, uint16_t *, uint16_t *, ptrdiff_t *, uint16_t *);
+
+	// algorithm:1955
+	extern void _Sort<uint16_t*, int>(uint16_t *, uint16_t *, int);
+
+	// algorithm:2025
+	extern void _Median<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:2013
+	extern void _Med3<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:425
+	extern void iter_swap<BrnTraffic::VehicleRenderInfo*, BrnTraffic::VehicleRenderInfo*>(VehicleRenderInfo *, VehicleRenderInfo *);
+
+	// algorithm:2042
+	extern pair<BrnTraffic::VehicleRenderInfo*,BrnTraffic::VehicleRenderInfo*> _Unguarded_partition<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:1316
+	extern void make_heap<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:1303
+	extern void _Make_heap<BrnTraffic::VehicleRenderInfo*, std::ptrdiff_t, BrnTraffic::VehicleRenderInfo, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &), ptrdiff_t *, VehicleRenderInfo *);
+
+	// algorithm:1226
+	extern void _Adjust_heap<BrnTraffic::VehicleRenderInfo*, int, BrnTraffic::VehicleRenderInfo, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, int, int, VehicleRenderInfo, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:1127
+	extern void _Push_heap<BrnTraffic::VehicleRenderInfo*, int, BrnTraffic::VehicleRenderInfo, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, int, int, VehicleRenderInfo, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:1335
+	extern void sort_heap<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:1268
+	extern void pop_heap<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:1260
+	extern void _Pop_heap_0<BrnTraffic::VehicleRenderInfo*, BrnTraffic::VehicleRenderInfo, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &), VehicleRenderInfo *);
+
+	// algorithm:1251
+	extern void _Pop_heap<BrnTraffic::VehicleRenderInfo*, std::ptrdiff_t, BrnTraffic::VehicleRenderInfo, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, VehicleRenderInfo *, VehicleRenderInfo, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &), ptrdiff_t *);
+
+	// algorithm:1988
+	extern void _Insertion_sort<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:880
+	extern void rotate<BrnTraffic::VehicleRenderInfo*>(VehicleRenderInfo *, VehicleRenderInfo *, VehicleRenderInfo *);
+
+	// algorithm:874
+	extern void _Rotate<BrnTraffic::VehicleRenderInfo*>(VehicleRenderInfo *, VehicleRenderInfo *, VehicleRenderInfo *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnTraffic::VehicleRenderInfo*, std::ptrdiff_t, BrnTraffic::VehicleRenderInfo>(VehicleRenderInfo *, VehicleRenderInfo *, VehicleRenderInfo *, ptrdiff_t *, VehicleRenderInfo *);
+
+	// algorithm:2101
+	extern void _Sort<BrnTraffic::VehicleRenderInfo*, int, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, int, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:1979
+	extern void sort<uint16_t*>(uint16_t *, uint16_t *);
+
+	// algorithm:2127
+	extern void sort<BrnTraffic::VehicleRenderInfo*, bool (*)(const BrnTraffic::VehicleRenderInfo&, const BrnTraffic::VehicleRenderInfo&)>(VehicleRenderInfo *, VehicleRenderInfo *, bool (*)(const VehicleRenderInfo &, const VehicleRenderInfo &));
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:1897
+	extern pair<BrnWorld::CandidateViewVolumePlane*,BrnWorld::CandidateViewVolumePlane*> _Unguarded_partition<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:1882
+	extern void _Median<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:1871
+	extern void _Med3<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:425
+	extern void iter_swap<BrnWorld::CandidateViewVolumePlane*, BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:1291
+	extern void make_heap<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:1279
+	extern void _Make_heap<BrnWorld::CandidateViewVolumePlane*, std::ptrdiff_t, BrnWorld::CandidateViewVolumePlane>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, ptrdiff_t *, CandidateViewVolumePlane *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<BrnWorld::CandidateViewVolumePlane*, int, BrnWorld::CandidateViewVolumePlane>(CandidateViewVolumePlane *, int, int, CandidateViewVolumePlane);
+
+	// algorithm:1080
+	extern void _Push_heap<BrnWorld::CandidateViewVolumePlane*, int, BrnWorld::CandidateViewVolumePlane>(CandidateViewVolumePlane *, int, int, CandidateViewVolumePlane);
+
+	// algorithm:1325
+	extern void sort_heap<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:1213
+	extern void pop_heap<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<BrnWorld::CandidateViewVolumePlane*, BrnWorld::CandidateViewVolumePlane>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:1198
+	extern void _Pop_heap<BrnWorld::CandidateViewVolumePlane*, std::ptrdiff_t, BrnWorld::CandidateViewVolumePlane>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:880
+	extern void rotate<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:874
+	extern void _Rotate<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<BrnWorld::CandidateViewVolumePlane*, std::ptrdiff_t, BrnWorld::CandidateViewVolumePlane>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, CandidateViewVolumePlane *, ptrdiff_t *, CandidateViewVolumePlane *);
+
+	// algorithm:1955
+	extern void _Sort<BrnWorld::CandidateViewVolumePlane*, int>(CandidateViewVolumePlane *, CandidateViewVolumePlane *, int);
+
+	// algorithm:1979
+	extern void sort<BrnWorld::CandidateViewVolumePlane*>(CandidateViewVolumePlane *, CandidateViewVolumePlane *);
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:1882
+	extern void _Median<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:1871
+	extern void _Med3<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:425
+	extern void iter_swap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:1897
+	extern pair<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*,CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*> _Unguarded_partition<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:1291
+	extern void make_heap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:1279
+	extern void _Make_heap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, std::ptrdiff_t, CgsGraphics::ModelInstanceCollector::ModelInstanceInfo>(ModelInstanceInfo *, ModelInstanceInfo *, ptrdiff_t *, ModelInstanceInfo *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, int, CgsGraphics::ModelInstanceCollector::ModelInstanceInfo>(ModelInstanceInfo *, int, int, ModelInstanceInfo);
+
+	// algorithm:1080
+	extern void _Push_heap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, int, CgsGraphics::ModelInstanceCollector::ModelInstanceInfo>(ModelInstanceInfo *, int, int, ModelInstanceInfo);
+
+	// algorithm:1325
+	extern void sort_heap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:1213
+	extern void pop_heap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, CgsGraphics::ModelInstanceCollector::ModelInstanceInfo>(ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:1198
+	extern void _Pop_heap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, std::ptrdiff_t, CgsGraphics::ModelInstanceCollector::ModelInstanceInfo>(ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:880
+	extern void rotate<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:874
+	extern void _Rotate<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, std::ptrdiff_t, CgsGraphics::ModelInstanceCollector::ModelInstanceInfo>(ModelInstanceInfo *, ModelInstanceInfo *, ModelInstanceInfo *, ptrdiff_t *, ModelInstanceInfo *);
+
+	// algorithm:1955
+	extern void _Sort<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*, int>(ModelInstanceInfo *, ModelInstanceInfo *, int);
+
+	// algorithm:1979
+	extern void sort<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*>(ModelInstanceInfo *, ModelInstanceInfo *);
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+
+// _built-in_
+namespace std {
+	// algorithm:1897
+	extern pair<CgsSceneManager::Interval*,CgsSceneManager::Interval*> _Unguarded_partition<CgsSceneManager::Interval*>(Interval *, Interval *);
+
+	// algorithm:1882
+	extern void _Median<CgsSceneManager::Interval*>(Interval *, Interval *, Interval *);
+
+	// algorithm:1871
+	extern void _Med3<CgsSceneManager::Interval*>(Interval *, Interval *, Interval *);
+
+	// algorithm:425
+	extern void iter_swap<CgsSceneManager::Interval*, CgsSceneManager::Interval*>(Interval *, Interval *);
+
+	// algorithm:1291
+	extern void make_heap<CgsSceneManager::Interval*>(Interval *, Interval *);
+
+	// algorithm:1279
+	extern void _Make_heap<CgsSceneManager::Interval*, std::ptrdiff_t, CgsSceneManager::Interval>(Interval *, Interval *, ptrdiff_t *, Interval *);
+
+	// algorithm:1174
+	extern void _Adjust_heap<CgsSceneManager::Interval*, int, CgsSceneManager::Interval>(Interval *, int, int, Interval);
+
+	// algorithm:1080
+	extern void _Push_heap<CgsSceneManager::Interval*, int, CgsSceneManager::Interval>(Interval *, int, int, Interval);
+
+	// algorithm:1325
+	extern void sort_heap<CgsSceneManager::Interval*>(Interval *, Interval *);
+
+	// algorithm:1213
+	extern void pop_heap<CgsSceneManager::Interval*>(Interval *, Interval *);
+
+	// algorithm:1206
+	extern void _Pop_heap_0<CgsSceneManager::Interval*, CgsSceneManager::Interval>(Interval *, Interval *, Interval *);
+
+	// algorithm:1198
+	extern void _Pop_heap<CgsSceneManager::Interval*, std::ptrdiff_t, CgsSceneManager::Interval>(Interval *, Interval *, Interval *, Interval, ptrdiff_t *);
+
+	// algorithm:1848
+	extern void _Insertion_sort<CgsSceneManager::Interval*>(Interval *, Interval *);
+
+	// algorithm:880
+	extern void rotate<CgsSceneManager::Interval*>(Interval *, Interval *, Interval *);
+
+	// algorithm:874
+	extern void _Rotate<CgsSceneManager::Interval*>(Interval *, Interval *, Interval *, random_access_iterator_tag);
+
+	// algorithm:841
+	extern void _Rotate<CgsSceneManager::Interval*, std::ptrdiff_t, CgsSceneManager::Interval>(Interval *, Interval *, Interval *, ptrdiff_t *, Interval *);
+
+	// algorithm:1955
+	extern void _Sort<CgsSceneManager::Interval*, int>(Interval *, Interval *, int);
+
+	// algorithm:1979
+	extern void sort<CgsSceneManager::Interval*>(Interval *, Interval *);
+
+	// algorithm:8
+	const int _ISORT_MAX = 32;
+
+}
+

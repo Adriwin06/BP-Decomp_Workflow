@@ -1,0 +1,336 @@
+// _built-in_
+namespace std {
+	// utility:9
+	extern void swap<BrnPhysics::ContactSpy::TrafficContact>(TrafficContact &, TrafficContact &);
+
+	// utility:9
+	extern void swap<BrnPhysics::ContactSpy::RaceCarContact>(RaceCarContact &, RaceCarContact &);
+
+	// utility:9
+	extern void swap<BrnPhysics::ContactSpy::PhysicalCarPartContact>(PhysicalCarPartContact &, PhysicalCarPartContact &);
+
+	// utility:9
+	extern void swap<BrnPhysics::ContactSpy::PropContact>(PropContact &, PropContact &);
+
+}
+
+// utility:18
+struct std::pair<BrnPhysics::ContactSpy::RaceCarContact*,BrnPhysics::ContactSpy::RaceCarContact*> {
+	// utility:46
+	RaceCarContact * first;
+
+	// utility:47
+	RaceCarContact * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(RaceCarContact *const&, RaceCarContact *const&);
+
+	// utility:40
+	void swap(pair<BrnPhysics::ContactSpy::RaceCarContact*,BrnPhysics::ContactSpy::RaceCarContact*> &);
+
+}
+
+// utility:18
+struct std::pair<BrnPhysics::ContactSpy::TrafficContact*,BrnPhysics::ContactSpy::TrafficContact*> {
+	// utility:46
+	TrafficContact * first;
+
+	// utility:47
+	TrafficContact * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(TrafficContact *const&, TrafficContact *const&);
+
+	// utility:40
+	void swap(pair<BrnPhysics::ContactSpy::TrafficContact*,BrnPhysics::ContactSpy::TrafficContact*> &);
+
+}
+
+// utility:18
+struct std::pair<BrnPhysics::ContactSpy::PhysicalCarPartContact*,BrnPhysics::ContactSpy::PhysicalCarPartContact*> {
+	// utility:46
+	PhysicalCarPartContact * first;
+
+	// utility:47
+	PhysicalCarPartContact * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(PhysicalCarPartContact *const&, PhysicalCarPartContact *const&);
+
+	// utility:40
+	void swap(pair<BrnPhysics::ContactSpy::PhysicalCarPartContact*,BrnPhysics::ContactSpy::PhysicalCarPartContact*> &);
+
+}
+
+// utility:18
+struct std::pair<BrnPhysics::ContactSpy::PropContact*,BrnPhysics::ContactSpy::PropContact*> {
+	// utility:46
+	PropContact * first;
+
+	// utility:47
+	PropContact * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(PropContact *const&, PropContact *const&);
+
+	// utility:40
+	void swap(pair<BrnPhysics::ContactSpy::PropContact*,BrnPhysics::ContactSpy::PropContact*> &);
+
+}
+
+// _built-in_
+namespace std {
+	// utility:9
+	extern void swap<BrnPhysics::Deformation::ContactTime>(ContactTime &, ContactTime &);
+
+}
+
+// utility:18
+struct std::pair<BrnPhysics::Deformation::ContactTime*,BrnPhysics::Deformation::ContactTime*> {
+	// utility:46
+	ContactTime * first;
+
+	// utility:47
+	ContactTime * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(ContactTime *const&, ContactTime *const&);
+
+	// utility:40
+	void swap(pair<BrnPhysics::Deformation::ContactTime*,BrnPhysics::Deformation::ContactTime*> &);
+
+}
+
+// _built-in_
+namespace std {
+	// utility:9
+	extern void swap<BrnSound::Logic::Collision::OutputCollision*>(OutputCollision *&, OutputCollision *&);
+
+	// utility:9
+	extern void swap<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult>(FindResult &, FindResult &);
+
+	// utility:9
+	extern void swap<BrnSound::Logic::Traffic::TrafficStateManager::SortResult>(BrnSound::Logic::Traffic::TrafficStateManager::SortResult &, BrnSound::Logic::Traffic::TrafficStateManager::SortResult &);
+
+}
+
+// utility:18
+struct std::pair<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*,BrnSound::Logic::Traffic::TrafficStateManager::SortResult*> {
+	// utility:46
+	BrnSound::Logic::Traffic::TrafficStateManager::SortResult * first;
+
+	// utility:47
+	BrnSound::Logic::Traffic::TrafficStateManager::SortResult * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(BrnSound::Logic::Traffic::TrafficStateManager::SortResult *const&, BrnSound::Logic::Traffic::TrafficStateManager::SortResult *const&);
+
+	// utility:40
+	void swap(pair<BrnSound::Logic::Traffic::TrafficStateManager::SortResult*,BrnSound::Logic::Traffic::TrafficStateManager::SortResult*> &);
+
+}
+
+// utility:18
+struct std::pair<BrnSound::Logic::Collision::OutputCollision**,BrnSound::Logic::Collision::OutputCollision**> {
+	// utility:46
+	OutputCollision ** first;
+
+	// utility:47
+	OutputCollision ** second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(OutputCollision **const&, OutputCollision **const&);
+
+	// utility:40
+	void swap(pair<BrnSound::Logic::Collision::OutputCollision**,BrnSound::Logic::Collision::OutputCollision**> &);
+
+}
+
+// utility:18
+struct std::pair<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*,CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*> {
+	// utility:46
+	FindResult * first;
+
+	// utility:47
+	FindResult * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(FindResult *const&, FindResult *const&);
+
+	// utility:40
+	void swap(pair<CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*,CgsSound::Utils::SelectionHistory<512u, uint16_t, uint16_t, 65536ull>::FindResult*> &);
+
+}
+
+// _built-in_
+namespace std {
+	// utility:9
+	extern void swap<short unsigned int>(short unsigned int &, short unsigned int &);
+
+	// utility:9
+	extern void swap<BrnTraffic::VehicleRenderInfo>(VehicleRenderInfo &, VehicleRenderInfo &);
+
+}
+
+// utility:18
+struct std::pair<uint16_t*,uint16_t*> {
+	// utility:46
+	uint16_t * first;
+
+	// utility:47
+	uint16_t * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(uint16_t *const&, uint16_t *const&);
+
+	// utility:40
+	void swap(pair<uint16_t*,uint16_t*> &);
+
+}
+
+// utility:18
+struct std::pair<BrnTraffic::VehicleRenderInfo*,BrnTraffic::VehicleRenderInfo*> {
+	// utility:46
+	VehicleRenderInfo * first;
+
+	// utility:47
+	VehicleRenderInfo * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(VehicleRenderInfo *const&, VehicleRenderInfo *const&);
+
+	// utility:40
+	void swap(pair<BrnTraffic::VehicleRenderInfo*,BrnTraffic::VehicleRenderInfo*> &);
+
+}
+
+// _built-in_
+namespace std {
+	// utility:9
+	extern void swap<BrnWorld::CandidateViewVolumePlane>(CandidateViewVolumePlane &, CandidateViewVolumePlane &);
+
+}
+
+// utility:18
+struct std::pair<BrnWorld::CandidateViewVolumePlane*,BrnWorld::CandidateViewVolumePlane*> {
+	// utility:46
+	CandidateViewVolumePlane * first;
+
+	// utility:47
+	CandidateViewVolumePlane * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(CandidateViewVolumePlane *const&, CandidateViewVolumePlane *const&);
+
+	// utility:40
+	void swap(pair<BrnWorld::CandidateViewVolumePlane*,BrnWorld::CandidateViewVolumePlane*> &);
+
+}
+
+// _built-in_
+namespace std {
+	// utility:9
+	extern void swap<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo>(ModelInstanceInfo &, ModelInstanceInfo &);
+
+	// utility:9
+	extern void swap<const char*>(const char *&, const char *&);
+
+	// utility:9
+	extern void swap<unsigned int>(unsigned int &, unsigned int &);
+
+	// utility:9
+	extern void swap<renderengine::ProgramVariableHandle>(renderengine::ProgramVariableHandle &, renderengine::ProgramVariableHandle &);
+
+}
+
+// utility:18
+struct std::pair<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*,CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*> {
+	// utility:46
+	ModelInstanceInfo * first;
+
+	// utility:47
+	ModelInstanceInfo * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(ModelInstanceInfo *const&, ModelInstanceInfo *const&);
+
+	// utility:40
+	void swap(pair<CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*,CgsGraphics::ModelInstanceCollector::ModelInstanceInfo*> &);
+
+}
+
+// _built-in_
+namespace std {
+	// utility:9
+	extern void swap<CgsSceneManager::Interval>(Interval &, Interval &);
+
+}
+
+// utility:18
+struct std::pair<CgsSceneManager::Interval*,CgsSceneManager::Interval*> {
+	// utility:46
+	Interval * first;
+
+	// utility:47
+	Interval * second;
+
+public:
+	// utility:23
+	void pair();
+
+	// utility:28
+	void pair(Interval *const&, Interval *const&);
+
+	// utility:40
+	void swap(pair<CgsSceneManager::Interval*,CgsSceneManager::Interval*> &);
+
+}
+

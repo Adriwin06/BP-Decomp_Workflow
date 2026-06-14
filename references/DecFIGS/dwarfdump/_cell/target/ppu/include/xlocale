@@ -1,0 +1,203 @@
+// _built-in_
+namespace std {
+	// Declaration
+	struct locale {
+		// xlocale:67
+		struct id {
+		private:
+			// xlocale:89
+			size_t _Id;
+
+			// xlocale:90
+			extern int _Id_cnt;
+
+		public:
+			// xlocale:69
+			id(size_t);
+
+			// xlocale:74
+			size_t operator std::size_t();
+
+		private:
+			// xlocale:86
+			id(const std::locale::id &);
+
+			// xlocale:87
+			std::locale::id & operator=(const std::locale::id &);
+
+		}
+
+	}
+
+}
+
+// xlocale:25
+struct std::_Locbase<int> {
+	// xlocale:27
+	extern const int collate;
+
+	// xlocale:28
+	extern const int ctype;
+
+	// xlocale:29
+	extern const int monetary;
+
+	// xlocale:30
+	extern const int numeric;
+
+	// xlocale:31
+	extern const int time;
+
+	// xlocale:32
+	extern const int messages;
+
+	// xlocale:33
+	extern const int all;
+
+	// xlocale:34
+	extern const int none;
+
+}
+
+// xlocale:61
+struct std::locale : public _Locbase<int> {
+	struct _Locimp;
+
+private:
+	// xlocale:294
+	locale::_Locimp * _Ptr;
+
+	// Unknown accessibility
+	struct facet;
+
+public:
+	// xlocale:178
+	locale & _Addfac(locale::facet *, size_t, size_t);
+
+	// xlocale:228
+	void locale();
+
+	// xlocale:230
+	void locale(std::_Uninitialized);
+
+	// xlocale:234
+	void locale(const locale &);
+
+	// xlocale:241
+	void locale(const locale &, const locale &, int);
+
+	// xlocale:244
+	void locale(const char *, int);
+
+	// xlocale:247
+	void locale(const locale &, const char *, int);
+
+	// xlocale:249
+	void ~locale();
+
+	// xlocale:255
+	locale & operator=(const locale &);
+
+	// xlocale:266
+	_Locinfo::string name() const;
+
+	// xlocale:271
+	const locale::facet * _Getfacet(size_t) const;
+
+	// xlocale:273
+	bool operator==(const locale &) const;
+
+	// xlocale:275
+	bool operator!=(const locale &) const;
+
+	// xlocale:280
+	const locale & classic();
+
+	// xlocale:282
+	locale global(const locale &);
+
+	// xlocale:284
+	locale empty();
+
+private:
+	// xlocale:287
+	void locale(locale::_Locimp *);
+
+	// xlocale:292
+	locale::_Locimp * _Init();
+
+}
+
+// xlocale:97
+struct std::locale::facet {
+	int (*)(...) * _vptr.facet;
+
+private:
+	// xlocale:141
+	size_t _Refs;
+
+public:
+	// xlocale:102
+	size_t _Getcat(const locale::facet **);
+
+	// xlocale:107
+	void _Incref();
+
+	// xlocale:115
+	locale::facet * _Decref();
+
+	// xlocale:124
+	void _Register();
+
+protected:
+	// xlocale:127
+	virtual void ~facet();
+
+	// xlocale:132
+	void facet(size_t);
+
+private:
+	// xlocale:138
+	void facet(const locale::facet &);
+
+	// xlocale:139
+	facet & operator=(const locale::facet &);
+
+}
+
+// xlocale:27
+extern const int collate;
+
+// xlocale:28
+extern const int ctype;
+
+// xlocale:29
+extern const int monetary;
+
+// xlocale:30
+extern const int numeric;
+
+// xlocale:31
+extern const int time;
+
+// xlocale:32
+extern const int messages;
+
+// xlocale:33
+extern const int all = 63;
+
+// xlocale:34
+extern const int none;
+
+// xlocale:90
+extern int _Id_cnt;
+
+// xlocale:1222
+extern std::locale::id id;
+
+// xlocale:1251
+extern const size_t table_size;
+
+// xlocale:305
+extern const locale::facet * _Psave;
+

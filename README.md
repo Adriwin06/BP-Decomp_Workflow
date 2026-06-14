@@ -57,7 +57,6 @@ Before starting the workflow, ensure you have the following prerequisites instal
    * The exporter script automatically resolves the path to `idat.exe` by checking the `-IdaPath` parameter, the `IDA_PATH` or `IDA_BIN` environment variables, default installation paths, or your system `PATH`.
 4. **Manually Supplied Reference Files (Git-ignored):** Due to size limits and/or licensing, several critical files must be manually copied into the workspace. You can download these necessary files from [this Google Drive zip](https://drive.google.com/file/d/13pGgBSWAuOwPHVNh-GsKv2J7T8FcIdlH/view?usp=sharing) and extract them directly at the root of the repository:
    * **Leaked Feb-2007 Source Code:** Place the extracted source tree inside [`references/Feb-2007/BrnEntityModuleUnity/`](references/Feb-2007/BrnEntityModuleUnity/). This provides original code overlays for the dossier generator.
-   * **DecFIGS DWARF Declaration Hints:** If you have the `dwarfdump/` tree, place it at [`references/DecFIGS/dwarfdump/`](references/DecFIGS/dwarfdump/). This provides declaration/type/local-variable hint overlays for the dossier generator.
    * **Oversized IDA Databases:** Place `Burnout_External_PS3.ELF.i64` and `BurnoutPR.exe.i64` inside the [`IDA Files/`](IDA%20Files/) folder.
 
 
@@ -80,7 +79,7 @@ and picks up the next translation unit. (Reconstructing *new* functions still ne
    work next -n 5         # next leaf-first ready translation units
    work show <tu>         # concise overview of one unit
    work show <tu> --full  # the full reconstruction dossier for it
-                           # includes DecFIGS dwarfdump declaration/type hints where available
+                           # includes DecFIGS dwarfdump declaration/type hints
    work start <tu>        # claim it, reconstruct into b5-decomp, then:
    work submit <tu>       # mark it done
    ```

@@ -1,0 +1,1 @@
+// CgsTextFileResource.cpp:34

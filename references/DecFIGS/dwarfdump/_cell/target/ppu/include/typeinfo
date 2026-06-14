@@ -1,0 +1,49 @@
+// typeinfo:89
+struct std::type_info {
+	int (*)(...) * _vptr.type_info;
+
+protected:
+	// typeinfo:157
+	const char * _Myname;
+
+public:
+	// tinfo.cc:41
+	virtual void ~type_info();
+
+	// typeinfo:124
+	bool before(const std::type_info &) const;
+
+	// typeinfo:129
+	bool operator==(const std::type_info &) const;
+
+	// typeinfo:135
+	bool operator!=(const std::type_info &) const;
+
+	// typeinfo:140
+	const char * name() const;
+
+	// tinfo.cc:62
+	virtual bool __is_pointer_p() const;
+
+	// tinfo.cc:69
+	virtual bool __is_function_p() const;
+
+	// tinfo.cc:76
+	virtual bool __do_catch(const std::type_info *, void **, unsigned int) const;
+
+	// tinfo.cc:83
+	virtual bool __do_upcast(const __cxxabiv1::__class_type_info *, void **) const;
+
+protected:
+	// typeinfo:152
+	void type_info(const char *);
+
+	// typeinfo:161
+	void type_info(const std::type_info &);
+
+private:
+	// typeinfo:164
+	type_info & operator=(const std::type_info &);
+
+}
+

@@ -1,0 +1,87 @@
+// BrnInterestManager.h:24
+namespace BrnProgression {
+	// Declaration
+	struct TrophyUnlockData {
+		// BrnTrophyUnlockData.h:48
+		enum UnlockType {
+			E_UNLOCKTYPE_NONE = 0,
+			E_UNLOCKTYPE_COMPLETE_ALL_STUNTS = 1,
+			E_UNLOCKTYPE_COMPLETE_ALL_JUMPS = 2,
+			E_UNLOCKTYPE_COMPLETE_ALL_SMASHES = 3,
+			E_UNLOCKTYPE_COMPLETE_ALL_TAKEDOWNS = 4,
+			E_UNLOCKTYPE_COMPLETE_ALL_CRASHES = 5,
+			E_UNLOCKTYPE_COMPLETE_ALL_TIMEROADRULES = 6,
+			E_UNLOCKTYPE_COMPLETE_ALL_CRASHROADRULES = 7,
+			E_UNLOCKTYPE_COMPLETE_ALL_ROADRULES = 8,
+			E_UNLOCKTYPE_COMPLETE_ALL_JUNCTIONEVENTS = 9,
+			E_UNLOCKTYPE_COMPLETE_ALL_ONLINECHALLENGE = 10,
+			E_UNLOCKTYPE_COMPLETE_ALL_RACES = 11,
+			E_UNLOCKTYPE_COMPLETE_ALL_ROADRAGES = 12,
+			E_UNLOCKTYPE_COMPLETE_ALL_BURNINGROUTES = 13,
+			E_UNLOCKTYPE_COMPLETE_ALL_ELIMINATORS = 14,
+			E_UNLOCKTYPE_COMPLETE_ALL_SURVIVORS = 15,
+			E_UNLOCKTYPE_COMPLETE_ALL_STUNTATTACK = 16,
+			E_UNLOCKTYPE_FIND_ALL_GASSTATIONS = 17,
+			E_UNLOCKTYPE_FIND_ALL_JUNKYARDS = 18,
+			E_UNLOCKTYPE_FIND_ALL_PAINTSHOPS = 19,
+			E_UNLOCKTYPE_FIND_ALL_BODYSHOPS = 20,
+			E_UNLOCKTYPE_FIND_ALL_DRIVE_THRUS = 21,
+			E_UNLOCKTYPE_NUM_MEDELS = 22,
+			E_UNLOCKTYPE_NUM_ROADRULES = 23,
+			E_UNLOCKTYPE_NUM_TIME_ROADRULES = 24,
+			E_UNLOCKTYPE_NUM_CRASH_ROADRULES = 25,
+			E_UNLOCKTYPE_NUM_NORMALTAKEDOWNS = 26,
+			E_UNLOCKTYPE_NUM_SIGNATURETAKEDOWNS = 27,
+			E_UNLOCKTYPE_NUM_JUMPS = 28,
+			E_UNLOCKTYPE_NUM_SMASHES = 29,
+			E_UNLOCKTYPE_NUM_STUNTS = 30,
+			E_UNLOCKTYPE_NUM_ONLINE_VERTICLE_TAKEDOWNS = 31,
+			E_UNLOCKTYPE_NUM_PERCENTAGE_PARALLELPARK_ONLINE = 32,
+			E_UNLOCKTYPE_NUM_OF_EACH_ONLINE_EVENT_COMPLETE = 33,
+			E_UNLOCKTYPE_NUM_MUG_SHOTS_COLLECTED = 34,
+			E_UNLOCKTYPE_COUNT = 35,
+		}
+
+	}
+
+}
+
+// BrnTrophyUnlockData.h:45
+struct BrnProgression::TrophyUnlockData {
+private:
+	// BrnTrophyUnlockData.h:127
+	uint32_t muNumberTrophyUnlock;
+
+	// BrnTrophyUnlockData.h:129
+	uint16_t mu16UnlockType;
+
+	// BrnTrophyUnlockData.h:130
+	CgsID mCarUnlockId;
+
+public:
+	// BrnTrophyUnlockData.h:100
+	void FixUp();
+
+	// BrnTrophyUnlockData.h:103
+	void FixDown();
+
+	// BrnTrophyUnlockData.h:106
+	uint32_t GetNumberForTrophyUnlock();
+
+	// BrnTrophyUnlockData.h:110
+	void SetNumberForTrophyUnlock(uint32_t);
+
+	// BrnTrophyUnlockData.h:113
+	BrnProgression::TrophyUnlockData::UnlockType GetUnlockType() const;
+
+	// BrnTrophyUnlockData.h:117
+	void SetUnlockType(BrnProgression::TrophyUnlockData::UnlockType);
+
+	// BrnTrophyUnlockData.h:120
+	CgsID GetCarUnlockID() const;
+
+	// BrnTrophyUnlockData.h:124
+	void SetCarUnlockID(CgsID);
+
+}
+

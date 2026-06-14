@@ -1,0 +1,7 @@
+// _built-in_
+namespace std {
+	// vector:1200
+	const int _VBITS = 32;
+
+}
+

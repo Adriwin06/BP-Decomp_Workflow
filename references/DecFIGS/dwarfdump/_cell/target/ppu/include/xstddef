@@ -1,0 +1,9 @@
+// _built-in_
+namespace std {
+	// xstddef:113
+	enum _Uninitialized {
+		_Noinit = 0,
+	}
+
+}
+

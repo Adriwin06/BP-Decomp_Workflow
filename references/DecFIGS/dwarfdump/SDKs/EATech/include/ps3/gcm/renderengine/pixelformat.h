@@ -1,0 +1,728 @@
+// CgsCore.h:144
+namespace renderengine {
+	// pixelformat.h:207
+	enum PixelFormat {
+		PIXELFORMAT_NA = -1,
+		PIXELFORMAT_B8 = 1433536897,
+		PIXELFORMAT_LIN_B8 = 1433536929,
+		PIXELFORMAT_A1R5G5B5 = 1433535106,
+		PIXELFORMAT_LIN_A1R5G5B5 = 1433535138,
+		PIXELFORMAT_A4R4G4B4 = 1433534595,
+		PIXELFORMAT_LIN_A4R4G4B4 = 1433534627,
+		PIXELFORMAT_R5G6B5 = 1433535364,
+		PIXELFORMAT_LIN_R5G6B5 = 1433535396,
+		PIXELFORMAT_A8R8G8B8 = 1433536645,
+		PIXELFORMAT_LIN_A8R8G8B8 = 1433536677,
+		PIXELFORMAT_DXT1 = 1433534598,
+		PIXELFORMAT_LIN_DXT1 = 1433534630,
+		PIXELFORMAT_DXT3 = 1433534599,
+		PIXELFORMAT_LIN_DXT3 = 1433534631,
+		PIXELFORMAT_DXT5 = 1433534600,
+		PIXELFORMAT_LIN_DXT5 = 1433534632,
+		PIXELFORMAT_G8B8 = 1433537163,
+		PIXELFORMAT_LIN_G8B8 = 1433537195,
+		PIXELFORMAT_R6G5B5 = 1433534607,
+		PIXELFORMAT_LIN_R6G5B5 = 1433534639,
+		PIXELFORMAT_D24S8 = 1433535120,
+		PIXELFORMAT_LIN_D24S8 = 1433535152,
+		PIXELFORMAT_D24FS8 = 1433534609,
+		PIXELFORMAT_LIN_D24FS8 = 1433534641,
+		PIXELFORMAT_D16 = 1433534866,
+		PIXELFORMAT_LIN_D16 = 1433534898,
+		PIXELFORMAT_D16F = 1433534611,
+		PIXELFORMAT_LIN_D16F = 1433534643,
+		PIXELFORMAT_R16 = 1433534868,
+		PIXELFORMAT_LIN_R16 = 1433534900,
+		PIXELFORMAT_G16R16 = 1433534613,
+		PIXELFORMAT_LIN_B16R16 = 1433534645,
+		PIXELFORMAT_R5G5B5A1 = 1433534615,
+		PIXELFORMAT_LIN_R5G5B5A1 = 1433534647,
+		PIXELFORMAT_COMPRESSED_HILO8 = 1433534616,
+		PIXELFORMAT_LIN_COMPRESSED_HILO8 = 1433534648,
+		PIXELFORMAT_COMPRESSED_HILO_S8 = 1433534617,
+		PIXELFORMAT_LIN_COMPRESSED_HILO_S8 = 1433534649,
+		PIXELFORMAT_A16B16G16R16F = 1433537434,
+		PIXELFORMAT_LIN_A16B16G16R16F = 1433537466,
+		PIXELFORMAT_A32B32G32R32F = 1433537691,
+		PIXELFORMAT_LIN_A32B32G32R32F = 1433537723,
+		PIXELFORMAT_R32F = 1433537948,
+		PIXELFORMAT_LIN_R32F = 1433537980,
+		PIXELFORMAT_X1R5G5B5 = 1433535133,
+		PIXELFORMAT_LIN_X1R5G5B5 = 1433535165,
+		PIXELFORMAT_X8R8G8B8 = 1433535902,
+		PIXELFORMAT_LIN_X8R8G8B8 = 1433535934,
+		PIXELFORMAT_G16R16F = 1433534623,
+		PIXELFORMAT_LIN_G16R16F = 1433534655,
+		PIXELFORMAT_R8G8B8A8 = 1430880389,
+		PIXELFORMAT_LIN_R8G8B8A8 = 1430880421,
+		PIXELFORMAT_D24S8F = 1433534609,
+		PIXELFORMAT_X16 = 1433534868,
+		PIXELFORMAT_Y16_X16 = 1433534613,
+		PIXELFORMAT_W16_Z16_Y16_X16_FLOAT = 1433537434,
+		PIXELFORMAT_W32_Z32_Y32_X32_FLOAT = 1433537691,
+		PIXELFORMAT_X32_FLOAT = 1433537948,
+		PIXELFORMAT_D1R5G5B5 = 1433535133,
+		PIXELFORMAT_D8R8G8B8 = 1433535902,
+		PIXELFORMAT_Y16_X16_FLOAT = 1433534623,
+		PIXELFORMAT_LIN_D8R8G8B8 = 1433535934,
+		PIXELFORMAT_LIN_W16_Z16_Y16_X16_FLOAT = 1433537466,
+		PIXELFORMAT_LIN_W32_Z32_Y32_X32_FLOAT = 1433537723,
+		PIXELFORMAT_LIN_X32_FLOAT = 1433537980,
+		PIXELFORMAT_LIN_X16 = 1433534900,
+		PIXELFORMAT_COMPRESSED_DXT1 = 1433534598,
+		PIXELFORMAT_LIN_COMPRESSED_DXT1 = 1433534630,
+		PIXELFORMAT_COMPRESSED_DXT23 = 1433534599,
+		PIXELFORMAT_LIN_COMPRESSED_DXT23 = 1433534631,
+		PIXELFORMAT_COMPRESSED_DXT45 = 1433534600,
+		PIXELFORMAT_LIN_COMPRESSED_DXT45 = 1433534632,
+		PIXELFORMAT_FORCEENUMSIZEINT = 2147483647,
+	}
+
+	// pixelformat.h:21
+	const uint32_t PS3TEXTUREFORMAT_B8 = 129;
+
+	// pixelformat.h:22
+	const uint32_t PS3TEXTUREFORMAT_A1R5G5B5 = 130;
+
+	// pixelformat.h:23
+	const uint32_t PS3TEXTUREFORMAT_A4R4G4B4 = 131;
+
+	// pixelformat.h:24
+	const uint32_t PS3TEXTUREFORMAT_R5G6B5 = 132;
+
+	// pixelformat.h:25
+	const uint32_t PS3TEXTUREFORMAT_A8R8G8B8 = 133;
+
+	// pixelformat.h:26
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_DXT1 = 134;
+
+	// pixelformat.h:27
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_DXT23 = 135;
+
+	// pixelformat.h:28
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_DXT45 = 136;
+
+	// pixelformat.h:29
+	const uint32_t PS3TEXTUREFORMAT_G8B8 = 139;
+
+	// pixelformat.h:30
+	const uint32_t PS3TEXTUREFORMAT_R6G5B5 = 143;
+
+	// pixelformat.h:31
+	const uint32_t PS3TEXTUREFORMAT_DEPTH24_D8 = 144;
+
+	// pixelformat.h:32
+	const uint32_t PS3TEXTUREFORMAT_DEPTH24_D8_FLOAT = 145;
+
+	// pixelformat.h:33
+	const uint32_t PS3TEXTUREFORMAT_DEPTH16 = 146;
+
+	// pixelformat.h:34
+	const uint32_t PS3TEXTUREFORMAT_DEPTH16_FLOAT = 147;
+
+	// pixelformat.h:35
+	const uint32_t PS3TEXTUREFORMAT_X16 = 148;
+
+	// pixelformat.h:36
+	const uint32_t PS3TEXTUREFORMAT_Y16_X16 = 149;
+
+	// pixelformat.h:37
+	const uint32_t PS3TEXTUREFORMAT_R5G5B5A1 = 151;
+
+	// pixelformat.h:38
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_HILO8 = 152;
+
+	// pixelformat.h:39
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_HILO_S8 = 153;
+
+	// pixelformat.h:40
+	const uint32_t PS3TEXTUREFORMAT_W16_Z16_Y16_X16_FLOAT = 154;
+
+	// pixelformat.h:41
+	const uint32_t PS3TEXTUREFORMAT_W32_Z32_Y32_X32_FLOAT = 155;
+
+	// pixelformat.h:42
+	const uint32_t PS3TEXTUREFORMAT_X32_FLOAT = 156;
+
+	// pixelformat.h:43
+	const uint32_t PS3TEXTUREFORMAT_D1R5G5B5 = 157;
+
+	// pixelformat.h:44
+	const uint32_t PS3TEXTUREFORMAT_D8R8G8B8 = 158;
+
+	// pixelformat.h:45
+	const uint32_t PS3TEXTUREFORMAT_Y16_X16_FLOAT = 159;
+
+	// pixelformat.h:47
+	const uint32_t PS3TEXTUREFORMAT_SZ;
+
+	// pixelformat.h:48
+	const uint32_t PS3TEXTUREFORMAT_LN = 32;
+
+	// pixelformat.h:49
+	const uint32_t PS3TEXTUREFORMAT_NR;
+
+	// pixelformat.h:50
+	const uint32_t PS3TEXTUREFORMAT_UN = 64;
+
+	// pixelformat.h:93
+	const uint32_t PS3SURFACE_INVALID;
+
+	// pixelformat.h:94
+	const uint32_t PS3SURFACE_X1R5G5B5_Z1R5G5B5 = 1;
+
+	// pixelformat.h:95
+	const uint32_t PS3SURFACE_X1R5G5B5_O1R5G5B5 = 2;
+
+	// pixelformat.h:96
+	const uint32_t PS3SURFACE_R5G6B5 = 3;
+
+	// pixelformat.h:97
+	const uint32_t PS3SURFACE_X8R8G8B8_Z8R8G8B8 = 4;
+
+	// pixelformat.h:98
+	const uint32_t PS3SURFACE_X8R8G8B8_O8R8G8B8 = 5;
+
+	// pixelformat.h:99
+	const uint32_t PS3SURFACE_A8R8G8B8 = 8;
+
+	// pixelformat.h:100
+	const uint32_t PS3SURFACE_B8 = 9;
+
+	// pixelformat.h:101
+	const uint32_t PS3SURFACE_G8B8 = 10;
+
+	// pixelformat.h:102
+	const uint32_t PS3SURFACE_F_W16Z16Y16X16 = 11;
+
+	// pixelformat.h:103
+	const uint32_t PS3SURFACE_F_W32Z32Y32X32 = 12;
+
+	// pixelformat.h:104
+	const uint32_t PS3SURFACE_F_X32 = 13;
+
+	// pixelformat.h:105
+	const uint32_t PS3SURFACE_X8B8G8R8_Z8B8G8R8 = 14;
+
+	// pixelformat.h:106
+	const uint32_t PS3SURFACE_X8B8G8R8_O8B8G8R8 = 15;
+
+	// pixelformat.h:107
+	const uint32_t PS3SURFACE_A8B8G8R8 = 16;
+
+	// pixelformat.h:112
+	const uint32_t PS3SURFACE_Z16 = 1;
+
+	// pixelformat.h:113
+	const uint32_t PS3SURFACE_Z24S8 = 2;
+
+	// pixelformat.h:118
+	const uint32_t PS3REMAP_ORDER_XYXY;
+
+	// pixelformat.h:119
+	const uint32_t PS3REMAP_ORDER_XXXY = 1;
+
+	// pixelformat.h:120
+	const uint32_t PS3REMAP_OUTPUT_ZERO;
+
+	// pixelformat.h:121
+	const uint32_t PS3REMAP_OUTPUT_ONE = 1;
+
+	// pixelformat.h:122
+	const uint32_t PS3REMAP_OUTPUT_REMAP = 2;
+
+	// pixelformat.h:123
+	const uint32_t PS3REMAP_FROM_A;
+
+	// pixelformat.h:124
+	const uint32_t PS3REMAP_FROM_R = 1;
+
+	// pixelformat.h:125
+	const uint32_t PS3REMAP_FROM_G = 2;
+
+	// pixelformat.h:126
+	const uint32_t PS3REMAP_FROM_B = 3;
+
+	// pixelformat.h:128
+	const uint32_t PS3REMAP_A_FROM_ZERO;
+
+	// pixelformat.h:129
+	const uint32_t PS3REMAP_A_FROM_ONE = 256;
+
+	// pixelformat.h:130
+	const uint32_t PS3REMAP_A_FROM_A = 512;
+
+	// pixelformat.h:131
+	const uint32_t PS3REMAP_A_FROM_R = 513;
+
+	// pixelformat.h:132
+	const uint32_t PS3REMAP_A_FROM_G = 514;
+
+	// pixelformat.h:133
+	const uint32_t PS3REMAP_A_FROM_B = 515;
+
+	// pixelformat.h:134
+	const uint32_t PS3REMAP_R_FROM_ZERO;
+
+	// pixelformat.h:135
+	const uint32_t PS3REMAP_R_FROM_ONE = 1024;
+
+	// pixelformat.h:136
+	const uint32_t PS3REMAP_R_FROM_A = 2048;
+
+	// pixelformat.h:137
+	const uint32_t PS3REMAP_R_FROM_R = 2052;
+
+	// pixelformat.h:138
+	const uint32_t PS3REMAP_R_FROM_G = 2056;
+
+	// pixelformat.h:139
+	const uint32_t PS3REMAP_R_FROM_B = 2060;
+
+	// pixelformat.h:140
+	const uint32_t PS3REMAP_G_FROM_ZERO;
+
+	// pixelformat.h:141
+	const uint32_t PS3REMAP_G_FROM_ONE = 4096;
+
+	// pixelformat.h:142
+	const uint32_t PS3REMAP_G_FROM_A = 8192;
+
+	// pixelformat.h:143
+	const uint32_t PS3REMAP_G_FROM_R = 8208;
+
+	// pixelformat.h:144
+	const uint32_t PS3REMAP_G_FROM_G = 8224;
+
+	// pixelformat.h:145
+	const uint32_t PS3REMAP_G_FROM_B = 8240;
+
+	// pixelformat.h:146
+	const uint32_t PS3REMAP_B_FROM_ZERO;
+
+	// pixelformat.h:147
+	const uint32_t PS3REMAP_B_FROM_ONE = 16384;
+
+	// pixelformat.h:148
+	const uint32_t PS3REMAP_B_FROM_A = 32768;
+
+	// pixelformat.h:149
+	const uint32_t PS3REMAP_B_FROM_R = 32832;
+
+	// pixelformat.h:150
+	const uint32_t PS3REMAP_B_FROM_G = 32896;
+
+	// pixelformat.h:151
+	const uint32_t PS3REMAP_B_FROM_B = 32960;
+
+	// pixelformat.h:153
+	const uint32_t PS3REMAP_DEFAULT = 43748;
+
+	// pixelformat.h:177
+	const uint32_t PS3PIXELFORMAT_TEXTUREFORMAT_MASK = 255;
+
+	// pixelformat.h:178
+	const uint32_t PS3PIXELFORMAT_TEXTUREFORMAT_OFFSET;
+
+	// pixelformat.h:179
+	const uint32_t PS3PIXELFORMAT_TEXTUREBAREFORMAT_MASK = 159;
+
+	// pixelformat.h:180
+	const uint32_t PS3PIXELFORMAT_TEXTURESWIZZLE_MASK = 32;
+
+	// pixelformat.h:181
+	const uint32_t PS3PIXELFORMAT_TEXTURENORMALIZE_MASK = 64;
+
+	// pixelformat.h:183
+	const uint32_t PS3PIXELFORMAT_SURFACEFORMAT_MASK = 7936;
+
+	// pixelformat.h:184
+	const uint32_t PS3PIXELFORMAT_SURFACEFORMAT_OFFSET = 8;
+
+	// pixelformat.h:186
+	const uint32_t PS3PIXELFORMAT_REMAP_MASK = 4294934528;
+
+	// pixelformat.h:187
+	const uint32_t PS3PIXELFORMAT_REMAP_OFFSET = 15;
+
+	// pixelformat.h:188
+	const uint32_t PS3PIXELFORMAT_REMAPORDER_MASK = 2147483648;
+
+	// pixelformat.h:189
+	const uint32_t PS3PIXELFORMAT_REMAPOUTPUT_MASK = 2139095040;
+
+	// pixelformat.h:190
+	const uint32_t PS3PIXELFORMAT_REMAPINPUT_MASK = 8355840;
+
+}
+
+// CgsCore.h:144
+namespace renderengine {
+	// pixelformat.h:207
+	enum PixelFormat {
+		PIXELFORMAT_NA = -1,
+		PIXELFORMAT_B8 = 1433536897,
+		PIXELFORMAT_LIN_B8 = 1433536929,
+		PIXELFORMAT_A1R5G5B5 = 1433535106,
+		PIXELFORMAT_LIN_A1R5G5B5 = 1433535138,
+		PIXELFORMAT_A4R4G4B4 = 1433534595,
+		PIXELFORMAT_LIN_A4R4G4B4 = 1433534627,
+		PIXELFORMAT_R5G6B5 = 1433535364,
+		PIXELFORMAT_LIN_R5G6B5 = 1433535396,
+		PIXELFORMAT_A8R8G8B8 = 1433536645,
+		PIXELFORMAT_LIN_A8R8G8B8 = 1433536677,
+		PIXELFORMAT_DXT1 = 1433534598,
+		PIXELFORMAT_LIN_DXT1 = 1433534630,
+		PIXELFORMAT_DXT3 = 1433534599,
+		PIXELFORMAT_LIN_DXT3 = 1433534631,
+		PIXELFORMAT_DXT5 = 1433534600,
+		PIXELFORMAT_LIN_DXT5 = 1433534632,
+		PIXELFORMAT_G8B8 = 1433537163,
+		PIXELFORMAT_LIN_G8B8 = 1433537195,
+		PIXELFORMAT_R6G5B5 = 1433534607,
+		PIXELFORMAT_LIN_R6G5B5 = 1433534639,
+		PIXELFORMAT_D24S8 = 1433535120,
+		PIXELFORMAT_LIN_D24S8 = 1433535152,
+		PIXELFORMAT_D24FS8 = 1433534609,
+		PIXELFORMAT_LIN_D24FS8 = 1433534641,
+		PIXELFORMAT_D16 = 1433534866,
+		PIXELFORMAT_LIN_D16 = 1433534898,
+		PIXELFORMAT_D16F = 1433534611,
+		PIXELFORMAT_LIN_D16F = 1433534643,
+		PIXELFORMAT_R16 = 1433534868,
+		PIXELFORMAT_LIN_R16 = 1433534900,
+		PIXELFORMAT_G16R16 = 1433534613,
+		PIXELFORMAT_LIN_B16R16 = 1433534645,
+		PIXELFORMAT_R5G5B5A1 = 1433534615,
+		PIXELFORMAT_LIN_R5G5B5A1 = 1433534647,
+		PIXELFORMAT_COMPRESSED_HILO8 = 1433534616,
+		PIXELFORMAT_LIN_COMPRESSED_HILO8 = 1433534648,
+		PIXELFORMAT_COMPRESSED_HILO_S8 = 1433534617,
+		PIXELFORMAT_LIN_COMPRESSED_HILO_S8 = 1433534649,
+		PIXELFORMAT_A16B16G16R16F = 1433537434,
+		PIXELFORMAT_LIN_A16B16G16R16F = 1433537466,
+		PIXELFORMAT_A32B32G32R32F = 1433537691,
+		PIXELFORMAT_LIN_A32B32G32R32F = 1433537723,
+		PIXELFORMAT_R32F = 1433537948,
+		PIXELFORMAT_LIN_R32F = 1433537980,
+		PIXELFORMAT_X1R5G5B5 = 1433535133,
+		PIXELFORMAT_LIN_X1R5G5B5 = 1433535165,
+		PIXELFORMAT_X8R8G8B8 = 1433535902,
+		PIXELFORMAT_LIN_X8R8G8B8 = 1433535934,
+		PIXELFORMAT_G16R16F = 1433534623,
+		PIXELFORMAT_LIN_G16R16F = 1433534655,
+		PIXELFORMAT_R8G8B8A8 = 1430880389,
+		PIXELFORMAT_LIN_R8G8B8A8 = 1430880421,
+		PIXELFORMAT_D24S8F = 1433534609,
+		PIXELFORMAT_X16 = 1433534868,
+		PIXELFORMAT_Y16_X16 = 1433534613,
+		PIXELFORMAT_W16_Z16_Y16_X16_FLOAT = 1433537434,
+		PIXELFORMAT_W32_Z32_Y32_X32_FLOAT = 1433537691,
+		PIXELFORMAT_X32_FLOAT = 1433537948,
+		PIXELFORMAT_D1R5G5B5 = 1433535133,
+		PIXELFORMAT_D8R8G8B8 = 1433535902,
+		PIXELFORMAT_Y16_X16_FLOAT = 1433534623,
+		PIXELFORMAT_LIN_D8R8G8B8 = 1433535934,
+		PIXELFORMAT_LIN_W16_Z16_Y16_X16_FLOAT = 1433537466,
+		PIXELFORMAT_LIN_W32_Z32_Y32_X32_FLOAT = 1433537723,
+		PIXELFORMAT_LIN_X32_FLOAT = 1433537980,
+		PIXELFORMAT_LIN_X16 = 1433534900,
+		PIXELFORMAT_COMPRESSED_DXT1 = 1433534598,
+		PIXELFORMAT_LIN_COMPRESSED_DXT1 = 1433534630,
+		PIXELFORMAT_COMPRESSED_DXT23 = 1433534599,
+		PIXELFORMAT_LIN_COMPRESSED_DXT23 = 1433534631,
+		PIXELFORMAT_COMPRESSED_DXT45 = 1433534600,
+		PIXELFORMAT_LIN_COMPRESSED_DXT45 = 1433534632,
+		PIXELFORMAT_FORCEENUMSIZEINT = 2147483647,
+	}
+
+	// pixelformat.h:330
+	extern uint32_t PS3PixelFormatIsSwizzled(renderengine::PixelFormat);
+
+	// pixelformat.h:303
+	extern uint32_t PS3PixelFormatGetTextureFormat(renderengine::PixelFormat);
+
+	// pixelformat.h:54
+	extern uint32_t PS3TextureFormatIsSwizzled(uint32_t);
+
+	// pixelformat.h:360
+	extern uint8_t PixelFormatGetDepth(renderengine::PixelFormat);
+
+	// pixelformat.h:21
+	const uint32_t PS3TEXTUREFORMAT_B8 = 129;
+
+	// pixelformat.h:22
+	const uint32_t PS3TEXTUREFORMAT_A1R5G5B5 = 130;
+
+	// pixelformat.h:23
+	const uint32_t PS3TEXTUREFORMAT_A4R4G4B4 = 131;
+
+	// pixelformat.h:24
+	const uint32_t PS3TEXTUREFORMAT_R5G6B5 = 132;
+
+	// pixelformat.h:25
+	const uint32_t PS3TEXTUREFORMAT_A8R8G8B8 = 133;
+
+	// pixelformat.h:26
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_DXT1 = 134;
+
+	// pixelformat.h:27
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_DXT23 = 135;
+
+	// pixelformat.h:28
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_DXT45 = 136;
+
+	// pixelformat.h:29
+	const uint32_t PS3TEXTUREFORMAT_G8B8 = 139;
+
+	// pixelformat.h:30
+	const uint32_t PS3TEXTUREFORMAT_R6G5B5 = 143;
+
+	// pixelformat.h:31
+	const uint32_t PS3TEXTUREFORMAT_DEPTH24_D8 = 144;
+
+	// pixelformat.h:32
+	const uint32_t PS3TEXTUREFORMAT_DEPTH24_D8_FLOAT = 145;
+
+	// pixelformat.h:33
+	const uint32_t PS3TEXTUREFORMAT_DEPTH16 = 146;
+
+	// pixelformat.h:34
+	const uint32_t PS3TEXTUREFORMAT_DEPTH16_FLOAT = 147;
+
+	// pixelformat.h:35
+	const uint32_t PS3TEXTUREFORMAT_X16 = 148;
+
+	// pixelformat.h:36
+	const uint32_t PS3TEXTUREFORMAT_Y16_X16 = 149;
+
+	// pixelformat.h:37
+	const uint32_t PS3TEXTUREFORMAT_R5G5B5A1 = 151;
+
+	// pixelformat.h:38
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_HILO8 = 152;
+
+	// pixelformat.h:39
+	const uint32_t PS3TEXTUREFORMAT_COMPRESSED_HILO_S8 = 153;
+
+	// pixelformat.h:40
+	const uint32_t PS3TEXTUREFORMAT_W16_Z16_Y16_X16_FLOAT = 154;
+
+	// pixelformat.h:41
+	const uint32_t PS3TEXTUREFORMAT_W32_Z32_Y32_X32_FLOAT = 155;
+
+	// pixelformat.h:42
+	const uint32_t PS3TEXTUREFORMAT_X32_FLOAT = 156;
+
+	// pixelformat.h:43
+	const uint32_t PS3TEXTUREFORMAT_D1R5G5B5 = 157;
+
+	// pixelformat.h:44
+	const uint32_t PS3TEXTUREFORMAT_D8R8G8B8 = 158;
+
+	// pixelformat.h:45
+	const uint32_t PS3TEXTUREFORMAT_Y16_X16_FLOAT = 159;
+
+	// pixelformat.h:47
+	const uint32_t PS3TEXTUREFORMAT_SZ;
+
+	// pixelformat.h:48
+	const uint32_t PS3TEXTUREFORMAT_LN = 32;
+
+	// pixelformat.h:49
+	const uint32_t PS3TEXTUREFORMAT_NR;
+
+	// pixelformat.h:50
+	const uint32_t PS3TEXTUREFORMAT_UN = 64;
+
+	// pixelformat.h:93
+	const uint32_t PS3SURFACE_INVALID;
+
+	// pixelformat.h:94
+	const uint32_t PS3SURFACE_X1R5G5B5_Z1R5G5B5 = 1;
+
+	// pixelformat.h:95
+	const uint32_t PS3SURFACE_X1R5G5B5_O1R5G5B5 = 2;
+
+	// pixelformat.h:96
+	const uint32_t PS3SURFACE_R5G6B5 = 3;
+
+	// pixelformat.h:97
+	const uint32_t PS3SURFACE_X8R8G8B8_Z8R8G8B8 = 4;
+
+	// pixelformat.h:98
+	const uint32_t PS3SURFACE_X8R8G8B8_O8R8G8B8 = 5;
+
+	// pixelformat.h:99
+	const uint32_t PS3SURFACE_A8R8G8B8 = 8;
+
+	// pixelformat.h:100
+	const uint32_t PS3SURFACE_B8 = 9;
+
+	// pixelformat.h:101
+	const uint32_t PS3SURFACE_G8B8 = 10;
+
+	// pixelformat.h:102
+	const uint32_t PS3SURFACE_F_W16Z16Y16X16 = 11;
+
+	// pixelformat.h:103
+	const uint32_t PS3SURFACE_F_W32Z32Y32X32 = 12;
+
+	// pixelformat.h:104
+	const uint32_t PS3SURFACE_F_X32 = 13;
+
+	// pixelformat.h:105
+	const uint32_t PS3SURFACE_X8B8G8R8_Z8B8G8R8 = 14;
+
+	// pixelformat.h:106
+	const uint32_t PS3SURFACE_X8B8G8R8_O8B8G8R8 = 15;
+
+	// pixelformat.h:107
+	const uint32_t PS3SURFACE_A8B8G8R8 = 16;
+
+	// pixelformat.h:112
+	const uint32_t PS3SURFACE_Z16 = 1;
+
+	// pixelformat.h:113
+	const uint32_t PS3SURFACE_Z24S8 = 2;
+
+	// pixelformat.h:118
+	const uint32_t PS3REMAP_ORDER_XYXY;
+
+	// pixelformat.h:119
+	const uint32_t PS3REMAP_ORDER_XXXY = 1;
+
+	// pixelformat.h:120
+	const uint32_t PS3REMAP_OUTPUT_ZERO;
+
+	// pixelformat.h:121
+	const uint32_t PS3REMAP_OUTPUT_ONE = 1;
+
+	// pixelformat.h:122
+	const uint32_t PS3REMAP_OUTPUT_REMAP = 2;
+
+	// pixelformat.h:123
+	const uint32_t PS3REMAP_FROM_A;
+
+	// pixelformat.h:124
+	const uint32_t PS3REMAP_FROM_R = 1;
+
+	// pixelformat.h:125
+	const uint32_t PS3REMAP_FROM_G = 2;
+
+	// pixelformat.h:126
+	const uint32_t PS3REMAP_FROM_B = 3;
+
+	// pixelformat.h:128
+	const uint32_t PS3REMAP_A_FROM_ZERO;
+
+	// pixelformat.h:129
+	const uint32_t PS3REMAP_A_FROM_ONE = 256;
+
+	// pixelformat.h:130
+	const uint32_t PS3REMAP_A_FROM_A = 512;
+
+	// pixelformat.h:131
+	const uint32_t PS3REMAP_A_FROM_R = 513;
+
+	// pixelformat.h:132
+	const uint32_t PS3REMAP_A_FROM_G = 514;
+
+	// pixelformat.h:133
+	const uint32_t PS3REMAP_A_FROM_B = 515;
+
+	// pixelformat.h:134
+	const uint32_t PS3REMAP_R_FROM_ZERO;
+
+	// pixelformat.h:135
+	const uint32_t PS3REMAP_R_FROM_ONE = 1024;
+
+	// pixelformat.h:136
+	const uint32_t PS3REMAP_R_FROM_A = 2048;
+
+	// pixelformat.h:137
+	const uint32_t PS3REMAP_R_FROM_R = 2052;
+
+	// pixelformat.h:138
+	const uint32_t PS3REMAP_R_FROM_G = 2056;
+
+	// pixelformat.h:139
+	const uint32_t PS3REMAP_R_FROM_B = 2060;
+
+	// pixelformat.h:140
+	const uint32_t PS3REMAP_G_FROM_ZERO;
+
+	// pixelformat.h:141
+	const uint32_t PS3REMAP_G_FROM_ONE = 4096;
+
+	// pixelformat.h:142
+	const uint32_t PS3REMAP_G_FROM_A = 8192;
+
+	// pixelformat.h:143
+	const uint32_t PS3REMAP_G_FROM_R = 8208;
+
+	// pixelformat.h:144
+	const uint32_t PS3REMAP_G_FROM_G = 8224;
+
+	// pixelformat.h:145
+	const uint32_t PS3REMAP_G_FROM_B = 8240;
+
+	// pixelformat.h:146
+	const uint32_t PS3REMAP_B_FROM_ZERO;
+
+	// pixelformat.h:147
+	const uint32_t PS3REMAP_B_FROM_ONE = 16384;
+
+	// pixelformat.h:148
+	const uint32_t PS3REMAP_B_FROM_A = 32768;
+
+	// pixelformat.h:149
+	const uint32_t PS3REMAP_B_FROM_R = 32832;
+
+	// pixelformat.h:150
+	const uint32_t PS3REMAP_B_FROM_G = 32896;
+
+	// pixelformat.h:151
+	const uint32_t PS3REMAP_B_FROM_B = 32960;
+
+	// pixelformat.h:153
+	const uint32_t PS3REMAP_DEFAULT = 43748;
+
+	// pixelformat.h:177
+	const uint32_t PS3PIXELFORMAT_TEXTUREFORMAT_MASK = 255;
+
+	// pixelformat.h:178
+	const uint32_t PS3PIXELFORMAT_TEXTUREFORMAT_OFFSET;
+
+	// pixelformat.h:179
+	const uint32_t PS3PIXELFORMAT_TEXTUREBAREFORMAT_MASK = 159;
+
+	// pixelformat.h:180
+	const uint32_t PS3PIXELFORMAT_TEXTURESWIZZLE_MASK = 32;
+
+	// pixelformat.h:181
+	const uint32_t PS3PIXELFORMAT_TEXTURENORMALIZE_MASK = 64;
+
+	// pixelformat.h:183
+	const uint32_t PS3PIXELFORMAT_SURFACEFORMAT_MASK = 7936;
+
+	// pixelformat.h:184
+	const uint32_t PS3PIXELFORMAT_SURFACEFORMAT_OFFSET = 8;
+
+	// pixelformat.h:186
+	const uint32_t PS3PIXELFORMAT_REMAP_MASK = 4294934528;
+
+	// pixelformat.h:187
+	const uint32_t PS3PIXELFORMAT_REMAP_OFFSET = 15;
+
+	// pixelformat.h:188
+	const uint32_t PS3PIXELFORMAT_REMAPORDER_MASK = 2147483648;
+
+	// pixelformat.h:189
+	const uint32_t PS3PIXELFORMAT_REMAPOUTPUT_MASK = 2139095040;
+
+	// pixelformat.h:190
+	const uint32_t PS3PIXELFORMAT_REMAPINPUT_MASK = 8355840;
+
+}
+

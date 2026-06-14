@@ -1,0 +1,4 @@
+// xmemory:69
+struct std::_Allocator_base<char> {
+}
+

@@ -1,0 +1,115 @@
+// xlocinfo:35
+struct std::_Collvec {
+	// xlocinfo:36
+	_Statab * _Costate;
+
+	// xlocinfo:37
+	_Statab * _WCostate;
+
+}
+
+// xlocinfo:42
+struct std::_Ctypevec {
+	// xlocinfo:43
+	const short int * _Table;
+
+	// xlocinfo:44
+	const short int * _Tolotab;
+
+	// xlocinfo:45
+	const short int * _Touptab;
+
+	// xlocinfo:46
+	int _Delfl;
+
+}
+
+// xlocinfo:51
+struct std::_Cvtvec {
+	// xlocinfo:52
+	_Statab * _Mbstate;
+
+	// xlocinfo:53
+	_Statab * _Wcstate;
+
+}
+
+// xlocinfo:58
+struct std::_Timevec {
+private:
+	// xlocinfo:71
+	_Tinfo _Timestuff;
+
+public:
+	// xlocinfo:60
+	void _Timevec();
+
+	// xlocinfo:65
+	const void * _Getptr() const;
+
+}
+
+// xlocinfo:76
+struct std::_Locinfo {
+private:
+	// xlocinfo:152
+	_Lockit _Lock;
+
+	// xlocinfo:153
+	_Timevec _Timeinfo;
+
+	// Unknown accessibility
+	// xstring:1714
+	typedef basic_string<char,std::char_traits<char>,std::allocator<char> > string;
+
+	// xlocinfo:154
+	_Locinfo::string _Oldlocname;
+
+	// xlocinfo:155
+	_Locinfo::string _Newlocname;
+
+public:
+	// xlocinfo:83
+	void _Locinfo(const char *);
+
+	// xlocinfo:85
+	void _Locinfo(int, const char *);
+
+	// xlocinfo:87
+	void ~_Locinfo();
+
+	// xlocinfo:89
+	_Locinfo & _Addcats(int, const char *);
+
+	// xlocinfo:91
+	_Locinfo::string _Getname() const;
+
+	// xlocinfo:96
+	_Collvec _Getcoll() const;
+
+	// xlocinfo:104
+	_Ctypevec _Getctype() const;
+
+	// xlocinfo:113
+	_Cvtvec _Getcvt() const;
+
+	// xlocinfo:121
+	const lconv * _Getlconv() const;
+
+	// xlocinfo:126
+	_Timevec _Gettnames() const;
+
+	// xlocinfo:131
+	const char * _Getdays() const;
+
+	// xlocinfo:136
+	const char * _Getmonths() const;
+
+	// xlocinfo:141
+	const char * _Getfalse() const;
+
+	// xlocinfo:146
+	const char * _Gettrue() const;
+
+}
+

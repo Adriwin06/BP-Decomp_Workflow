@@ -1,0 +1,29 @@
+// _built-in_
+namespace std {
+	// new:79
+	extern const nothrow_t nothrow;
+
+}
+
+// new:76
+struct std::nothrow_t {
+}
+
+// new:79
+extern const nothrow_t nothrow;
+
+// new:97
+extern void * operator new(size_t, void *  _Where) {
+	// This is not intended to be complete source code - just some variable hints. Consult a decompiler.
+}
+
+// new:109
+extern void * operator new [](size_t, void *  _Where) {
+	// This is not intended to be complete source code - just some variable hints. Consult a decompiler.
+}
+
+// new:134
+extern void * operator new(size_t, size_t, void *  _Where) {
+	// This is not intended to be complete source code - just some variable hints. Consult a decompiler.
+}
+

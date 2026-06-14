@@ -1,0 +1,4 @@
+struct LobbyApiRefT;
+
+struct LobbyLocalizeT;
+
