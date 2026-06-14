@@ -45,4 +45,6 @@ isn't recognized here — if someone knows what it is, please share.
   [`../../b5-decomp`](../../b5-decomp/) largely as-is, since headers (unlike the bodies)
   survived intact.
 - Pairs naturally with [`../DecFIGS`](../DecFIGS/): DecFIGS tells you which file a
-  function came from; this folder shows you what that file's declarations looked like.
+  function came from and its `dwarfdump/` tree supplies declaration/type hints for
+  many files; this folder is still the higher-fidelity source reference where it
+  overlaps.

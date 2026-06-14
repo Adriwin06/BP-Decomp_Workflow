@@ -6,10 +6,12 @@ Artifacts extracted from the **DecFIGS "FINAL_FIGS" Internal PS3 build**
 
 This build is special: it was compiled with **DWARF line information still intact**, so
 every instruction carries the original **source file + line number** it was generated
-from — *including* code that was inlined from other files. That attribution did not
-survive into other exports, so it is read straight out of the `.i64` here. This is the
-single most valuable input for **re-partitioning the disassembly back into the original
-source files**.
+from — *including* code that was inlined from other files. The same DWARF data also
+retains useful source-shaped declarations, type outlines, enum values, globals, and
+local-variable hints. That attribution did not survive into other exports, so it is
+read straight out of the `.i64` here. This is the single most valuable input for
+**re-partitioning the disassembly back into the original source files**, and a major
+input for source-like type recovery.
 
 ## What's in here
 
@@ -20,6 +22,7 @@ source files**.
 | `decfigs_func_files.json` | Compact: `func_addr -> {name, primary_file, span_count, inlined_files:[…]}`. | Quick "which file does this function belong to" lookup. |
 | `decfigs_inlining.json` | Per-function ordered spans `{file, n_instr, first_ea, last_ea, line_lo, line_hi, inlined}`; `inlined:true` where a span's file differs from the function's home file. | Recover what was inlined into a function and from where. |
 | `decfigs_source_tree.txt` | Sorted unique list of every original source path referenced by the build. | The **original source-tree skeleton** the recovered C++ should mirror. |
+| `dwarfdump/` | Optional/local source-tree-shaped DWARF declaration dump: `.h`/`.cpp` hint files with enums, class/struct outlines, member names/types, globals, function signatures, and local variables where DWARF retained them. | Feed source-code reconstruction with source-shaped names and logical types. This is **not complete implementation source** and **not offset authority**; verify behavior and member placement against X360 pseudocode/asm. |
 
 ## Why it's useful for the decomp
 
@@ -28,15 +31,26 @@ source files**.
 - **Inlining recovery:** `decfigs_inlining.json` shows which helper code got inlined
   into a function and from which file — essential for reconstructing small inline
   functions and templates that have no standalone symbol.
+- **Type/signature recovery:** `dwarfdump/` gives the LLM C++-shaped DWARF hints
+  for declarations, enum values, member names/types, globals, signatures, and locals.
+  Use it to write source-like C++ instead of raw Hex-Rays temporaries or offset casts.
+  Treat it as a hint layer only: X360 pseudocode/asm remains authoritative for
+  behavior and member placement, and it wins aginst Feb-2007 leaked source where it overlaps (since the source code is older).
 - **Naming:** function names are demangled symbols (e.g.
   `._ZN6Attrib8TypeDesc6LookupEy` → `Attrib::TypeDesc::Lookup`).
 
 ## Provenance & regenerating
 
-Generated from the IDB by [`../../tools/ida_export_lineinfo.py`](../../tools/ida_export_lineinfo.py)
+Line-attribution JSON is generated from the IDB by
+[`../../tools/ida_export_lineinfo.py`](../../tools/ida_export_lineinfo.py)
 (raw dump) and then compacted by
 [`../../tools/build_source_tree.py`](../../tools/build_source_tree.py) into the
 `decfigs_*` files. Do not hand-edit; re-run those tools after re-exporting.
+
+`dwarfdump/` is a local DWARF-derived hint tree. Keep it in sync with the same
+DecFIGS ELF/IDB when regenerating DecFIGS artifacts. The `work show --full` dossier
+auto-surfaces matching files from this tree for DecFIGS-backed TUs when present,
+and `work submit` passes that same dossier to the reviewer packet.
 
 > Note: original paths are rooted under build-machine temp dirs like
 > `C:\WINDOWS\TEMP\DBSWORK\a\d:/P4/B5_FIGS/Burnout/tasks/FINAL_FIGS/Code/…`; the

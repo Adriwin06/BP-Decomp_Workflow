@@ -14,7 +14,7 @@ truth (symbols, DWARF line info, type layouts). The decomp triangulates between 
 | File | Build / platform | What it's good for |
 |------|------------------|--------------------|
 | `BURNOUT_X360_ARTIST.XEX.i64` | Xbox 360 (PowerPC) "ARTIST" build | The actively-exported target; PPC disassembly + Hex-Rays pseudocode. Its per-function export lives in `../.ida-exports/BURNOUT_X360_ARTIST.XEX/`. |
-| `DecFIGS_Burnout_Internal_PS3.ELF.i64` | Internal PS3 "FINAL_FIGS" build | **Carries DWARF line info** — origin source file/line for every instruction, incl. inlining. Source of the `decfigs_*` attribution artifacts. |
+| `DecFIGS_Burnout_Internal_PS3.ELF.i64` | Internal PS3 "FINAL_FIGS" build | **Carries DWARF line/type info** — origin source file/line for every instruction, incl. inlining, plus source-shaped declarations/type/local-variable hints. Source of the `decfigs_*` attribution artifacts and `references/DecFIGS/dwarfdump/`. |
 | `Burnout_External_PS3.ELF.i64` | Retail PS3 (external) | Richer symbol table; PS3 function names. *(git-ignored — too large to commit.)* |
 | `BurnoutPR.exe.i64` | Burnout Paradise Remastered / PC | Source of the PC module/offset map in [`../references/BPR`](../references/BPR/). *(git-ignored — too large.)* |
 | `TUB_Burnout_PC_External.exe.i64` | Burnout Paradise: The Ultimate Box (PC, external) | Cross-reference for the PC code paths the decomp targets. |
@@ -25,8 +25,10 @@ truth (symbols, DWARF line info, type layouts). The decomp triangulates between 
 
 - **Names & symbols:** the PS3 ELFs carry demangled function names that the
   X360/PC builds lack — used to label functions across builds by matching code.
-- **Source attribution:** only the DecFIGS PS3 build kept DWARF line info, which is what
-  lets the disassembly be re-partitioned into the original source files.
+- **Source attribution and type hints:** only the DecFIGS PS3 build kept DWARF line info,
+  which is what lets the disassembly be re-partitioned into the original source files.
+  Its `dwarfdump/` companion also gives C++-shaped declarations, enum values, member
+  names/types, globals, signatures, and locals for reconstruction hints.
 - **Type ground truth:** `rwcore.pdb` gives exact `rw::` struct layouts, avoiding the
   per-function layout drift that plagues decomps.
 - **PC vs. console deltas:** comparing the PC (`BurnoutPR`, `TUB`) and console
