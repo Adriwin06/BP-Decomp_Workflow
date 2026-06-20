@@ -35,7 +35,7 @@ input for source-like type recovery.
   for declarations, enum values, member names/types, globals, signatures, and locals.
   Use it to write source-like C++ instead of raw Hex-Rays temporaries or offset casts.
   Treat it as a hint layer only: X360 pseudocode/asm remains authoritative for
-  behavior and member placement, and it wins aginst Feb-2007 leaked source where it overlaps (since the source code is older).
+  behavior and member placement, and it wins aginst Feb-2007 partial source where it overlaps (since the source code is older).
   - **Conformance caveat — gate on X360 attestation.** This is the *PS3* build, so it
     drifts in version from the X360 spine. DWARF supplies **names/types/signatures**; the
     **X360 ledger** (`progress/status.json` → `func`) decides **what exists**. Add a DWARF
