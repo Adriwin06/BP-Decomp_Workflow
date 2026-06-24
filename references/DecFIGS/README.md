@@ -50,9 +50,9 @@ input for source-like type recovery.
 ## Provenance & regenerating
 
 Line-attribution JSON is generated from the IDB by
-[`../../tools/ida_export_lineinfo.py`](../../tools/ida_export_lineinfo.py)
+[`../../tools/ida/export_lineinfo.py`](../../tools/ida/export_lineinfo.py)
 (raw dump) and then compacted by
-[`../../tools/build_source_tree.py`](../../tools/build_source_tree.py) into the
+[`../../tools/ida/build_source_tree.py`](../../tools/ida/build_source_tree.py) into the
 `decfigs_*` files. Do not hand-edit; re-run those tools after re-exporting.
 
 `dwarfdump/` is a committed DWARF-derived hint tree. Keep it in sync with the same

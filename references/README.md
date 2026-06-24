@@ -19,11 +19,11 @@ reference-specific tool map is:
 
 | Reference area | Tools that produce or query it |
 | --- | --- |
-| DecFIGS source attribution | `tools/ida_export_lineinfo.py`, `tools/build_source_tree.py` |
+| DecFIGS source attribution | `tools/ida/export_lineinfo.py`, `tools/ida/build_source_tree.py` |
 | DecFIGS dossiers | `tools/work/dossier.py` via `work show <tu> --full` |
 | Execution-derived goals | `tools/work/trace_import.py` via `work goal import-trace` |
 | Wiki type index | `tools/work/wiki_index.py --lookup <Type>` |
-| RenderWare `rw::` headers | `tools/gen_rwcore_headers.py` |
+| RenderWare `rw::` headers | `tools/renderware/generate_headers.py` |
 | Ledger identity and TU grouping | `tools/work/build_identity.py`, `tools/work/build_tu_index.py`, `tools/work/build_type_deps.py` |
 
 | Folder | What it gives the decomp |

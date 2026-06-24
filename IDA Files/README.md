@@ -19,7 +19,7 @@ truth (symbols, DWARF line info, type layouts). The decomp triangulates between 
 | `BurnoutPR.exe.i64` | Burnout Paradise Remastered / PC | Source of the PC module/offset map in [`../references/BPR`](../references/BPR/). *(git-ignored — too large.)* |
 | `TUB_Burnout_PC_External.exe.i64` | Burnout Paradise: The Ultimate Box (PC, external) | Cross-reference for the PC code paths the decomp targets. |
 | `rwcore_master.obj.i64` | IDB of `rwcore_master.obj` | RenderWare 4 core, analyzed against real PDB symbols — basis for the `rw::` type headers. |
-| `rwcore.lib`, `rwcore.pdb` | Shipped RenderWare core lib + symbols | The highest-fidelity source for `rw::` type layouts; consumed (via Ghidra) by `../tools/gen_rwcore_headers.py`. |
+| `rwcore.lib`, `rwcore.pdb` | Shipped RenderWare core lib + symbols | The highest-fidelity source for `rw::` type layouts; consumed (via Ghidra) by `../tools/renderware/generate_headers.py`. |
 
 ## Why it's useful for the decomp
 

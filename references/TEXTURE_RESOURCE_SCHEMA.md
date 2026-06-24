@@ -12,7 +12,7 @@ reference them the same way.
   no serialized self-pointers — the runtime D3D handle is created at load).
 - Uncompressed, native byte order in the `.dat` files; the bundle is platform 4.
 - Offsets below are authoritative (dumped via `offsetof`/`sizeof`; regenerate with
-  `tools/_dump_font_offsets.cpp`).
+  `tools/assets/fonts/dump_offsets.cpp`).
 
 ## Two memory pools
 

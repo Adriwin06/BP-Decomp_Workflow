@@ -16,7 +16,7 @@ loads it automatically (absent/invalid → the built-in vector font is used inst
 - **Uncompressed.** Set the compressed flag off (or pre-decompress). The loader assumes the on-disk
   bytes are the final uncompressed bytes; 360-style decompress + endian-swap is *not* applied.
 - All offsets/sizes below were dumped with `offsetof`/`sizeof` from the actual headers
-  (`tools/_dump_font_offsets.cpp`), so they are authoritative for this build's x64 layout.
+  (`tools/assets/fonts/dump_offsets.cpp`), so they are authoritative for this build's x64 layout.
 
 ### Why platform 4
 
