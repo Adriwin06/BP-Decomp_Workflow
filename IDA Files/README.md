@@ -20,6 +20,7 @@ truth (symbols, DWARF line info, type layouts). The decomp triangulates between 
 | `TUB_Burnout_PC_External.exe.i64` | Burnout Paradise: The Ultimate Box (PC, external) | Cross-reference for the PC code paths the decomp targets. |
 | `rwcore_master.obj.i64` | IDB of `rwcore_master.obj` | RenderWare 4 core, analyzed against real PDB symbols — basis for the `rw::` type headers. |
 | `rwcore.lib`, `rwcore.pdb` | Shipped RenderWare core lib + symbols | The highest-fidelity source for `rw::` type layouts; consumed (via Ghidra) by `../tools/renderware/generate_headers.py`. |
+| `ProStreet08Milestone.exe` / `.i64` / `.map` / `.pdb` | **Xbox 360** (PowerPC) NFS ProStreet 08 milestone (Oct-2007) | **Authoritative `rw::audio::core` (`rwaudiocore`) type ground truth** — a *different* EA Black Box game that shares the RenderWare-audio middleware Burnout's `CgsSound::Playback` is built on. Full 62 MB PDB (types/signatures/members) + 121 K-line MAP (symbol→address). Same PPC platform/era as ARTIST. **X360 build → 32-bit pointers** (model PC as x64). Use **only** for the shared `rwaudiocore` vocabulary, not Burnout-specific shape. Extract with `llvm-pdbutil pretty` (`-include-types="rw::audio::core::<regex>"`); cross-ref symbols via the `.map` (mangled tail `@core@audio@rw@@`). |
 
 ## Why it's useful for the decomp
 
